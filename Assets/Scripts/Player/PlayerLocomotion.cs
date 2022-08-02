@@ -19,6 +19,8 @@ public class PlayerLocomotion : MonoBehaviour
     public new Rigidbody rigidbody;
     public GameObject normalCamera;
 
+    public ParticleSystem heavyParticle;
+
     [Header("Stats")]
     [SerializeField]
     float movementSpeed = 5;
@@ -213,7 +215,8 @@ public class PlayerLocomotion : MonoBehaviour
     {
         animateHandler.canRotate = true;
         playerManager.isOnLocked = false;
-        animateHandler.anim.SetTrigger("UnEquip");
+        if(!animateHandler.anim_lock)
+            animateHandler.anim.SetTrigger("UnEquip");
         //animateHandler.PlayTargetAnimation("UnEquipToEquip", false);
         animateHandler.ChangeLockLoayer(0f);
     }
@@ -278,6 +281,11 @@ public class PlayerLocomotion : MonoBehaviour
         {
             rigidbody.velocity = new Vector3(animateHandler.anim.velocity.x,rigidbody.velocity.y, animateHandler.anim.velocity.z);
         }
+    }
+
+    public void PlayParticle()
+    {
+        heavyParticle.Play();
     }
 }
 

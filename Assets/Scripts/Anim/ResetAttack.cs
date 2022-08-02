@@ -10,6 +10,7 @@ public class ResetAttack : StateMachineBehaviour
         PlayerManager.Instance.isAttacking = false;
         PlayerManager.Instance.comboStep = 0;
         PlayerManager.Instance.combo3Loop = 0;
+        PlayerManager.Instance.attackDamage = 0;
         animator.ResetTrigger("Attack");
         animator.ResetTrigger("AttackLater");
     }

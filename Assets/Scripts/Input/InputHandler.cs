@@ -111,6 +111,7 @@ public class InputHandler : MonoBehaviour
         //按下以及长按逻辑
         if (inputActions.PlayerAction.Attack.WasPressedThisFrame())
         {
+            //CameraHandle.Instance.CameraShake();
             //TODO 添加完美次元斩以及动画判定
             if(m_LateTime >= 0.5f && m_LateTime <= 1f)
                 playerLocomotion.AttackLaterCombo(delta);
@@ -126,17 +127,16 @@ public class InputHandler : MonoBehaviour
         if (inputActions.PlayerAction.Attack.WasReleasedThisFrame())
         {
             Debug.Log("m_durationTime:" + m_HoldTime);
-            if (m_HoldTime >= 1f)
+            if (m_HoldTime >= 0.8f)
             {
                 playerLocomotion.AttackHold(delta);
             }
             m_HoldTime = 0f;
             m_LateTimeStart = true;
         }
-
-
     }
 
+    
 }
 
 

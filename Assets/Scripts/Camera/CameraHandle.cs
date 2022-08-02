@@ -13,6 +13,7 @@ public class CameraHandle : MonoBehaviour
     private Vector3 cameraTransformPosition;
     private Vector3 cameraFollowVelocity = Vector3.zero;
     private LayerMask ignoreLayers;
+    private Cinemachine.CinemachineImpulseSource impulse;
 
     public static CameraHandle Instance;
 
@@ -32,12 +33,14 @@ public class CameraHandle : MonoBehaviour
     public float cameraCollisionOffSet = 0.2f;
     public float minimumCollisionOffSet = 0.2f;
 
+    
     private void Awake()
     {
         Instance = this;
         mytransform = this.transform;
         defaultPosition = cameraTransform.localPosition.z;
         ignoreLayers = ~(1 << 8 | 1 << 9 | 1 << 10);
+        impulse = GetComponent<Cinemachine.CinemachineImpulseSource>();
     }
 
     public void FollowTarget(float delta)
@@ -45,13 +48,13 @@ public class CameraHandle : MonoBehaviour
         Vector3 targetPosition = Vector3.SmoothDamp(mytransform.position, targetTransform.position, ref cameraFollowVelocity, delta / followSpeed);
         mytransform.position = targetPosition + new Vector3(0,0.1f,0);
 
-        HandleCameraCollisions(delta);
+        //HandleCameraCollisions(delta);
     }
 
     public void HandleCameraRotation(float delta, float mouseXInput, float mouseYInput)
     {
         lookAngle += (mouseXInput * lookSpeed) / delta;
-        pivotAngel -= (mouseYInput * pivotAngel) / delta;
+        pivotAngel -= (mouseYInput * pivotSpeed) / delta;
         pivotAngel = Mathf.Clamp(pivotAngel, minimumPivot, maximumPivot);
 
         Vector3 rotation = Vector3.zero;
@@ -77,19 +80,25 @@ public class CameraHandle : MonoBehaviour
         {
             float dis = Vector3.Distance(cameraPivotTransform.position, hit.point);
             targetPosition = -(dis - cameraCollisionOffSet);
+            if (Mathf.Abs(targetPosition) < minimumCollisionOffSet)
+            {
+                targetPosition = -minimumCollisionOffSet;
+            }
+
+            cameraTransformPosition.z = Mathf.Lerp(cameraTransform.localPosition.z, targetPosition, delta / 0.2f);
+            cameraTransform.localPosition = cameraTransformPosition;
+        }
+
         
-        }
-
-        if (Mathf.Abs(targetPosition) < minimumCollisionOffSet)
-        {
-            targetPosition = -minimumCollisionOffSet;
-        }
-
-        cameraTransformPosition.z = Mathf.Lerp(cameraTransform.localPosition.z, targetPosition, delta / 0.2f);
-        cameraTransform.localPosition = cameraTransformPosition;
 
     }
 
+    public void CameraShake()
+    {
+        impulse.GenerateImpulse();
+    }
+
+    
 }
 
 
