@@ -18,6 +18,7 @@ public class Paramator
     public Transform AttackPoint;
     public float AttackArea;
     public LayerMask AttackLayer;
+    public bool dead;
 }
 public class EnemyManager : MonoBehaviour
 {

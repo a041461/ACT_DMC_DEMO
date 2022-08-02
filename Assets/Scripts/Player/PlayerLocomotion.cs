@@ -19,7 +19,10 @@ public class PlayerLocomotion : MonoBehaviour
     public new Rigidbody rigidbody;
     public GameObject normalCamera;
 
-    public ParticleSystem heavyParticle;
+    public GameObject SwordParticle;
+    public GameObject HandParticle;
+
+    public GameObject SpecialAttackParticle;
 
     [Header("Stats")]
     [SerializeField]
@@ -238,7 +241,7 @@ public class PlayerLocomotion : MonoBehaviour
             animateHandler.SetTrigger("Attack",true,true);
             playerManager.comboStep++;
         }
-        else
+        else if(!animateHandler.anim_lock)
         {
             playerManager.isAttacking = true;
             animateHandler.PlayTargetAnimation("Combo01_01", true);
@@ -270,6 +273,8 @@ public class PlayerLocomotion : MonoBehaviour
     {
         rigidbody.velocity = Vector3.zero;
         animateHandler.PlayTargetAnimation("SpecialAttack_Start", true,true);
+       
+
     }
 
 
@@ -283,9 +288,42 @@ public class PlayerLocomotion : MonoBehaviour
         }
     }
 
-    public void PlayParticle()
+    public void SetSwordLighting(bool light)
     {
-        heavyParticle.Play();
+        if (light)
+        {
+            if (!SwordParticle.activeSelf)
+                SwordParticle.SetActive(true);
+            return;             
+        }
+        else
+        {
+            if (SwordParticle.activeSelf)
+                SwordParticle.SetActive(false);
+            return;
+        }
+       
+    }
+
+    public void SetHandLighting(bool light)
+    {
+        if (light)
+        {
+            if (!HandParticle.activeSelf)
+                HandParticle.SetActive(true);
+            return;
+        }
+        else
+        {
+            if (HandParticle.activeSelf)
+                HandParticle.SetActive(false);
+            return;
+        }
+    }
+
+    public void InstantiateSpecialAttack(){
+        Instantiate(SpecialAttackParticle, PlayerManager.Instance.currentTarget.transform);
+        playerManager.AttackPause(2);
     }
 }
 

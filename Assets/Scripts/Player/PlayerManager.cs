@@ -16,6 +16,8 @@ public class PlayerManager : MonoBehaviour
     Vector3 pointBottom, pointTop;
     private AnimateHandler animateHandler;
     public static PlayerManager Instance;
+    public Transform currentTarget;
+    private Collider[] colliderList;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         OnGround();
+        DetectEnemy();
     }
 
     void OnGround()
@@ -58,7 +61,7 @@ public class PlayerManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy") && isAttacking)
         {
             EnemyManager enemyManager = other.GetComponentInParent<EnemyManager>();
             if (enemyManager == null)
@@ -78,9 +81,10 @@ public class PlayerManager : MonoBehaviour
                     CameraHandle.Instance.CameraShake();
                     break;
 
-            }
-            
+            }            
         }
+
+
     }
 
     public void AttackPause(int duartion)
@@ -93,5 +97,27 @@ public class PlayerManager : MonoBehaviour
         Time.timeScale = .1f;
         yield return new WaitForSecondsRealtime(pauseTime);
         Time.timeScale = 1;
+    }
+
+    void DetectEnemy()
+    {
+        colliderList = Physics.OverlapSphere(transform.position,10f,1<<LayerMask.NameToLayer("Enemy"));
+        if (colliderList.Length >0)
+        {          
+            for(int i = 0; i < colliderList.Length; i++)
+            {
+               //Debug.Log("ColliderList:" + colliderList[i].name);
+                if (colliderList[i].GetComponentInParent<EnemyManager>() != null)
+                {
+                    if (!colliderList[i].GetComponentInParent<EnemyManager>().paramator.dead)
+                    {
+                        currentTarget = colliderList[i].transform;
+                    }
+                }
+                
+            }               
+        }
+
+
     }
 }

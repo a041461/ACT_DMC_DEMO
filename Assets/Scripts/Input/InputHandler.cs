@@ -64,6 +64,12 @@ public class InputHandler : MonoBehaviour
             m_LateTime += delta;
         if (m_LateTime > 100f)
             m_LateTime = 0f;
+        if (m_HoldTime >= 0.7f)
+        {
+            playerLocomotion.SetHandLighting(true);
+        }
+        if(m_HoldTime>=1f)
+            playerLocomotion.SetSwordLighting(true);
     }
 
     public void MoveInput(float delta)
@@ -112,7 +118,7 @@ public class InputHandler : MonoBehaviour
         if (inputActions.PlayerAction.Attack.WasPressedThisFrame())
         {
             //CameraHandle.Instance.CameraShake();
-            //TODO 添加完美次元斩以及动画判定
+            
             if(m_LateTime >= 0.5f && m_LateTime <= 1f)
                 playerLocomotion.AttackLaterCombo(delta);
             else
@@ -126,9 +132,12 @@ public class InputHandler : MonoBehaviour
         }
         if (inputActions.PlayerAction.Attack.WasReleasedThisFrame())
         {
+            //TODO 添加完美次元斩以及动画判定
             Debug.Log("m_durationTime:" + m_HoldTime);
             if (m_HoldTime >= 0.8f)
             {
+                playerLocomotion.SetHandLighting(false);
+                playerLocomotion.SetSwordLighting(false);
                 playerLocomotion.AttackHold(delta);
             }
             m_HoldTime = 0f;
