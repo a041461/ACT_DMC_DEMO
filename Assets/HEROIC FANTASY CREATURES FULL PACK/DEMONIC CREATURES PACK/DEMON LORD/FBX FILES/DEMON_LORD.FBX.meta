@@ -608,11 +608,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
-      in configuration does not match rotation in animation file:\n\t'DEMON_LORD_
-      L HorseLink' : rotation error = 39.993832 deg\n\t'DEMON_LORD_ R HorseLink'
-      : rotation error = 39.993870 deg\n\t'DEMON_LORD_ Neck1' : rotation error =
-      14.230030 deg\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 

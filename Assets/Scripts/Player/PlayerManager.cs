@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     public bool isOnGround = false;
     public bool isOnLocked = false;
     public bool isAttacking = false;
+    public bool m_ShootHoldFlag = false;
     public int comboStep = 0;
     public int combo3Loop = 0;
     public int attackDamage = 0;
@@ -77,7 +78,7 @@ public class PlayerManager : MonoBehaviour
             if (enemyManager == null)
                 enemyManager = other.GetComponent<EnemyManager>();
             enemyManager.paramator.health-=attackDamage;
-            //enemyManager.OpenSwordLine();
+            enemyManager.OpenSwordLine();
             switch (attackDamage)
             {
                 case 0:

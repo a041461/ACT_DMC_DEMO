@@ -17,6 +17,7 @@ public class Paramator
     public float AttackArea;
     public LayerMask AttackLayer;
     public bool dead;
+    public int stage;
 }
 public class EnemyManager : MonoBehaviour
 {
@@ -25,8 +26,12 @@ public class EnemyManager : MonoBehaviour
     public GameObject sword;
     public GameObject whisp;
     public GameObject[] swordLine;
-    public Collider attackCollider;
+    public Collider fistAttackCollider;
+    public Collider swordAttackCollider;
+    public GameObject whispAttackCollider;
+    public Collider screamCollider;
     private Collider[] colliderList;
+
 
     public void Update()
     {
@@ -54,12 +59,62 @@ public class EnemyManager : MonoBehaviour
     public void OpenSwordLine()
     {
         if(swordLine!=null)
-            swordLine[UnityEngine.Random.Range(0, swordLine.Length)].SetActive(true);
+            swordLine[UnityEngine.Random.Range(0, swordLine.Length-1)].SetActive(true);
     }
 
-    public void OpenAttackCollision(bool enable = true)
+    public void CameraShake()
     {
-        attackCollider.enabled = true;
+        for(float time = 0; time <= 1f; time += Time.deltaTime)
+        {
+            CameraHandle.Instance.CameraShake();
+        }
+        
+    }
+    #region CollisionPart
+
+    public void OpenAttackCollision()
+    {
+        if(paramator.stage > 0)
+        {
+            swordAttackCollider.enabled = true;
+        }
+        else
+        {
+            fistAttackCollider.enabled = true;
+        }
+    }
+    public void CloseAttackCollision()
+    {
+        swordAttackCollider.enabled = false;
+        fistAttackCollider.enabled = false;
     }
 
+    public void OpenWhispAttackCollision()
+    {
+        Collider[] whispAttackColliders =  whispAttackCollider.GetComponentsInChildren<Collider>(true);
+        for(int i = 0; i < whispAttackColliders.Length-1; i++)
+        {
+            whispAttackColliders[i].enabled = true;
+        }
+    }
+    public void CloseWhispAttackCollision()
+    {
+        Collider[] whispAttackColliders = whispAttackCollider.GetComponentsInChildren<Collider>(true);
+        for (int i = 0; i < whispAttackColliders.Length-1; i++)
+        {
+            whispAttackColliders[i].enabled = false;
+        }
+    }
+
+    public void OpenScreamCollision()
+    {
+        screamCollider.enabled = true;
+
+    }
+
+    public void CloserScreamCollision()
+    {
+        screamCollider.enabled = false;
+    }
+    #endregion
 }

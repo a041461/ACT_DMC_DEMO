@@ -20,6 +20,7 @@ public class InputHandler : MonoBehaviour
     float m_LateTime;
 
     float m_ShootHoldTime;
+    
 
     bool m_LateTimeStart;
 
@@ -157,16 +158,23 @@ public class InputHandler : MonoBehaviour
         if (inputActions.PlayerAction.Fire.IsPressed())
         {
             m_ShootHoldTime += delta;
+            if (m_ShootHoldTime >= 0.8f && !PlayerManager.Instance.m_ShootHoldFlag)
+            {
+                PlayerManager.Instance.m_ShootHoldFlag = true;
+                playerLocomotion.ShootHold(delta);
+            }
         }
         if (inputActions.PlayerAction.Fire.WasReleasedThisFrame())
         {
-            //TODO 添加完美次元斩以及动画判定
+            
             Debug.Log("m_durationTime:" + m_ShootHoldTime);
             if (m_ShootHoldTime >= 0.8f)
             {
-                
+                PlayerManager.Instance.m_ShootHoldFlag = false;
+                /*
                 playerLocomotion.SetSwordLighting(false);
                 playerLocomotion.AttackHold(delta);
+                */
             }
             m_ShootHoldTime = 0f;
         }

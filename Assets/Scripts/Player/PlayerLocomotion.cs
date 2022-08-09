@@ -28,6 +28,8 @@ public class PlayerLocomotion : MonoBehaviour
 
     public GameObject KatanaPrefab;
 
+    public GameObject KatanaRoundPrefab;
+
     [Header("Stats")]
     [SerializeField]
     float movementSpeed = 5;
@@ -296,11 +298,20 @@ public class PlayerLocomotion : MonoBehaviour
     #region Shoot
     public void Shoot(float delta)
     {
-        Instantiate(KatanaPrefab, KatanaSwordPosition[Random.Range(0, KatanaSwordPosition.Length)].transform);
+        GameObject go= Instantiate(KatanaPrefab, KatanaSwordPosition[Random.Range(0, KatanaSwordPosition.Length)].transform);
+        
     }
     public void ShootHold(float delta)
     {
-
+        if (GetComponentInChildren<KatanaRoundParent>() != null)
+        {
+            GetComponentInChildren<KatanaRoundParent>().FreezeKatana();
+        }
+        else
+        {
+            GameObject go = Instantiate(KatanaRoundPrefab, this.transform);
+        }
+            
     }
     #endregion
 

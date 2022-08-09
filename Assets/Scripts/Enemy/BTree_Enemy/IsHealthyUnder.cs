@@ -11,6 +11,7 @@ public class IsHealthyUnder : EnemyCondition
     {
         if (enemyManager.paramator.health<=UnderHealth)
         {
+            enemyManager.paramator.stage = 1;
             return TaskStatus.Success;
         }
         return TaskStatus.Failure;

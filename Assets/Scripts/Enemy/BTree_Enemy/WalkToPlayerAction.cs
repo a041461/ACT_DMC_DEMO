@@ -9,15 +9,20 @@ public class WalkToPlayerAction : EnemyAction
     public float distance;
     public float walkSpeed;
     public float rotationSpeed;
+    public float chaseTimeOut;
     private bool isNear;
+    private float delta;
 
     public override void OnStart()
     {
         animator.ResetTrigger("ToIdle");
+        animator.ResetTrigger("Scream");
+        delta = 0;
     }
 
     private void StartWalk()
     {
+        
         var direction = enemyManager.paramator.target.position - transform.position;
         transform.Translate(direction.normalized * Time.deltaTime* walkSpeed, Space.World);
         var angle = Vector3.Angle(transform.forward, direction);
@@ -30,7 +35,20 @@ public class WalkToPlayerAction : EnemyAction
     public override TaskStatus OnUpdate()
     {
         StartWalk();
-        return isNear ? TaskStatus.Success : TaskStatus.Running;
+        delta += Time.deltaTime;
+        if (delta>=chaseTimeOut)
+        {
+            animator.SetTrigger("Scream");
+            walkSpeed = 7;
+            return TaskStatus.Failure;
+        }
+        if (isNear)
+        {
+            animator.SetTrigger("ToIdle");
+            walkSpeed = 5;
+            return TaskStatus.Success;
+        }           
+        return TaskStatus.Running;
     }
 
     public void IsNearBy()
@@ -38,8 +56,7 @@ public class WalkToPlayerAction : EnemyAction
         Debug.Log("distance:" + (enemyManager.paramator.target.position - this.transform.position).sqrMagnitude);
         if ((enemyManager.paramator.target.position - this.transform.position).sqrMagnitude <= distance)
         {
-            isNear = true;
-            
+            isNear = true;           
         }
            
     }
