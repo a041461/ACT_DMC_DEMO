@@ -59,6 +59,16 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+
+    public void AttackStart()
+    {
+        isAttacking = true;
+    }
+    public void AttackComplete()
+    {
+        isAttacking = false;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy") && isAttacking)
@@ -67,36 +77,46 @@ public class PlayerManager : MonoBehaviour
             if (enemyManager == null)
                 enemyManager = other.GetComponent<EnemyManager>();
             enemyManager.paramator.health-=attackDamage;
+            //enemyManager.OpenSwordLine();
             switch (attackDamage)
             {
                 case 0:
 
                     break;
                 case 1:
-                    AttackPause(1);
+                    AttackPause(3);
                     break;
                 case 3:
                 case 4:
-                    AttackPause(3);
+                    AttackPause(4);
                     CameraHandle.Instance.CameraShake();
                     break;
 
             }            
         }
 
-
+        if (other.CompareTag("EnemyAttack"))
+        {
+            int randomNumber = Random.Range(1, 4);
+            animateHandler.PlayTargetAnimation("Hit0"+ randomNumber, true);
+        }
     }
 
-    public void AttackPause(int duartion)
+    public void CameraShake()
+    {
+        CameraHandle.Instance.CameraShake();
+    }
+
+    public void AttackPause(float duartion)
     {
         StartCoroutine(IAttackPause(duartion));
     }
-    IEnumerator IAttackPause(int duartion)
+    IEnumerator IAttackPause(float duartion)
     {
         float pauseTime = duartion / 60f;
-        Time.timeScale = .1f;
+        animateHandler.anim.speed= 0;
         yield return new WaitForSecondsRealtime(pauseTime);
-        Time.timeScale = 1;
+        animateHandler.anim.speed = 1;
     }
 
     void DetectEnemy()

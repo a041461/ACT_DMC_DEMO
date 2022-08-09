@@ -98,6 +98,18 @@ public class CameraHandle : MonoBehaviour
         impulse.GenerateImpulse();
     }
 
+    public void CameraFollowTarget(Vector3 target)
+    {
+        Vector3 rotation = Vector3.zero;
+        rotation = target-this.transform.position;
+        rotation.Normalize();
+        rotation.y = 0;
+        
+        Quaternion tr = Quaternion.LookRotation(rotation);
+        Quaternion targetRotation = Quaternion.Slerp(mytransform.rotation, tr, 10);
+        mytransform.rotation = tr;
+        lookAngle = mytransform.rotation.y*180;
+    }
     
 }
 

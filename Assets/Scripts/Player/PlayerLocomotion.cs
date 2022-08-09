@@ -20,9 +20,13 @@ public class PlayerLocomotion : MonoBehaviour
     public GameObject normalCamera;
 
     public GameObject SwordParticle;
-    public GameObject HandParticle;
+    public ParticleSystem HandParticle;
 
     public GameObject SpecialAttackParticle;
+
+    public GameObject[] KatanaSwordPosition;
+
+    public GameObject KatanaPrefab;
 
     [Header("Stats")]
     [SerializeField]
@@ -272,13 +276,34 @@ public class PlayerLocomotion : MonoBehaviour
     public void AttackHold(float delta)
     {
         rigidbody.velocity = Vector3.zero;
-        animateHandler.PlayTargetAnimation("SpecialAttack_Start", true,true);
-       
+        if(PlayerManager.Instance.currentTarget!=null)
+        {
+            cameraHandle.CameraFollowTarget(PlayerManager.Instance.currentTarget.transform.position);
+            Vector3 targetDir = -this.transform.position+ PlayerManager.Instance.currentTarget.transform.position;
+            targetDir.Normalize();
+            targetDir.y = 0;
+            Quaternion tr = Quaternion.LookRotation( targetDir);
+            Quaternion targetRotation = Quaternion.Slerp(myTransform.rotation, tr,10);            
+            myTransform.rotation = tr;
+            
+        }
 
+        animateHandler.PlayTargetAnimation("SpecialAttack_Start", true, true);
     }
 
 
     #endregion
+    #region Shoot
+    public void Shoot(float delta)
+    {
+        Instantiate(KatanaPrefab, KatanaSwordPosition[Random.Range(0, KatanaSwordPosition.Length)].transform);
+    }
+    public void ShootHold(float delta)
+    {
+
+    }
+    #endregion
+
 
     private void OnAnimatorMove()
     {
@@ -305,20 +330,11 @@ public class PlayerLocomotion : MonoBehaviour
        
     }
 
-    public void SetHandLighting(bool light)
+    public void SetHandLighting()
     {
-        if (light)
-        {
-            if (!HandParticle.activeSelf)
-                HandParticle.SetActive(true);
-            return;
-        }
-        else
-        {
-            if (HandParticle.activeSelf)
-                HandParticle.SetActive(false);
-            return;
-        }
+        if(!HandParticle.isPlaying)
+            HandParticle.Play();
+        
     }
 
     public void InstantiateSpecialAttack(){

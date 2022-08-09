@@ -19,6 +19,8 @@ public class InputHandler : MonoBehaviour
     float m_HoldTime;
     float m_LateTime;
 
+    float m_ShootHoldTime;
+
     bool m_LateTimeStart;
 
     PlayerLocomotion playerLocomotion;
@@ -60,13 +62,14 @@ public class InputHandler : MonoBehaviour
         JumpInput(delta);
         LockInput(delta);
         AttackInput(delta);
+        ShootInput(delta);
         if (m_LateTimeStart)
             m_LateTime += delta;
         if (m_LateTime > 100f)
             m_LateTime = 0f;
         if (m_HoldTime >= 0.7f)
         {
-            playerLocomotion.SetHandLighting(true);
+            playerLocomotion.SetHandLighting();
         }
         if(m_HoldTime>=1f)
             playerLocomotion.SetSwordLighting(true);
@@ -136,7 +139,7 @@ public class InputHandler : MonoBehaviour
             Debug.Log("m_durationTime:" + m_HoldTime);
             if (m_HoldTime >= 0.8f)
             {
-                playerLocomotion.SetHandLighting(false);
+                
                 playerLocomotion.SetSwordLighting(false);
                 playerLocomotion.AttackHold(delta);
             }
@@ -145,6 +148,29 @@ public class InputHandler : MonoBehaviour
         }
     }
 
+    public void ShootInput(float delta)
+    {
+         if (inputActions.PlayerAction.Fire.WasPressedThisFrame())
+        {
+            playerLocomotion.Shoot(delta);          
+        }
+        if (inputActions.PlayerAction.Fire.IsPressed())
+        {
+            m_ShootHoldTime += delta;
+        }
+        if (inputActions.PlayerAction.Fire.WasReleasedThisFrame())
+        {
+            //TODO 添加完美次元斩以及动画判定
+            Debug.Log("m_durationTime:" + m_ShootHoldTime);
+            if (m_ShootHoldTime >= 0.8f)
+            {
+                
+                playerLocomotion.SetSwordLighting(false);
+                playerLocomotion.AttackHold(delta);
+            }
+            m_ShootHoldTime = 0f;
+        }
+    }
     
 }
 
