@@ -122,9 +122,11 @@ public class InputHandler : MonoBehaviour
         if (inputActions.PlayerAction.Attack.WasPressedThisFrame())
         {
             //CameraHandle.Instance.CameraShake();
-            
-            if(m_LateTime >= 0.5f && m_LateTime <= 1f)
+
+            if (m_LateTime >= 0.5f && m_LateTime <= 1f)
                 playerLocomotion.AttackLaterCombo(delta);
+            else if (PlayerManager.Instance.isOnLocked)
+                playerLocomotion.AttackLock(delta);
             else
                 playerLocomotion.AttackCombo(delta);
             m_LateTimeStart = false;
@@ -139,8 +141,7 @@ public class InputHandler : MonoBehaviour
             //TODO 添加完美次元斩以及动画判定
             Debug.Log("m_durationTime:" + m_HoldTime);
             if (m_HoldTime >= 0.8f)
-            {
-                
+            {               
                 playerLocomotion.SetSwordLighting(false);
                 playerLocomotion.AttackHold(delta);
             }

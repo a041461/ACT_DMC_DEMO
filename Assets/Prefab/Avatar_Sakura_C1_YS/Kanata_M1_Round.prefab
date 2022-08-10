@@ -301,7 +301,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4ad3ce3d14d14941a3521268139d1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destoryTime: 5
+  splahTime: 10
+  freezeTime: 1
+  flyTime: 2
 --- !u!1 &1781275919814262759
 GameObject:
   m_ObjectHideFlags: 0

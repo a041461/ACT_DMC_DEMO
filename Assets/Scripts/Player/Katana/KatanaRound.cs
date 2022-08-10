@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class KatanaRound : MonoBehaviour
 {
-    public int destoryCount = 2;
+    public bool fire;
+    public int destoryCount = 3;
+    public int flyDirection = 1;
+    public float flyTime = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +17,17 @@ public class KatanaRound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (fire)
+        {
+            this.transform.Translate(flyDirection * transform.forward.normalized * Time.deltaTime * 20, Space.World);
+            flyTime -= Time.deltaTime;
+            if (flyTime <= 0)
+            {
+                Destroy(this.gameObject);
+            }
+        }
     }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
@@ -29,4 +41,5 @@ public class KatanaRound : MonoBehaviour
             }
         }
     }
+   
 }

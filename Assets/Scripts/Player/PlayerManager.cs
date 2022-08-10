@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public bool isOnLocked = false;
     public bool isAttacking = false;
     public bool m_ShootHoldFlag = false;
+    public bool rushTime = false;
     public int comboStep = 0;
     public int combo3Loop = 0;
     public int attackDamage = 0;
@@ -78,7 +79,8 @@ public class PlayerManager : MonoBehaviour
             if (enemyManager == null)
                 enemyManager = other.GetComponent<EnemyManager>();
             enemyManager.paramator.health-=attackDamage;
-            enemyManager.OpenSwordLine();
+            StartCoroutine(IAttackShake(enemyManager.gameObject,0.1f,0.1f));
+            //enemyManager.OpenSwordLine();
             switch (attackDamage)
             {
                 case 0:
@@ -86,6 +88,7 @@ public class PlayerManager : MonoBehaviour
                     break;
                 case 1:
                     AttackPause(3);
+                    CameraHandle.Instance.CameraShake();
                     break;
                 case 3:
                 case 4:
@@ -96,13 +99,23 @@ public class PlayerManager : MonoBehaviour
             }            
         }
 
-        if (other.CompareTag("EnemyAttack"))
+        if (other.CompareTag("EnemyAttack") && !rushTime)
         {
+            CameraShake();
             int randomNumber = Random.Range(1, 4);
             animateHandler.PlayTargetAnimation("Hit0"+ randomNumber, true);
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            AttackFast(2);
+        }
+
+
+    }
     public void CameraShake()
     {
         CameraHandle.Instance.CameraShake();
@@ -117,6 +130,30 @@ public class PlayerManager : MonoBehaviour
         float pauseTime = duartion / 60f;
         animateHandler.anim.speed= 0;
         yield return new WaitForSecondsRealtime(pauseTime);
+        animateHandler.anim.speed = 1;
+    }
+
+    IEnumerator IAttackShake(GameObject go,float duartion,float stength)
+    {
+        Vector3 startPosition = go.transform.position;
+        while (duartion > 0)
+        {
+            go.transform.position = Random.insideUnitSphere* stength + startPosition;
+            duartion -= Time.deltaTime;
+        }
+        yield return null;
+        go.transform.position = startPosition;
+    }
+
+    public void AttackFast(float duartion)
+    {
+        StartCoroutine(IAttackFast(duartion));
+    }
+    IEnumerator IAttackFast(float duartion)
+    {
+        float FastTime = duartion / 60f;
+        animateHandler.anim.speed = 2f;
+        yield return new WaitForSecondsRealtime(FastTime);
         animateHandler.anim.speed = 1;
     }
 

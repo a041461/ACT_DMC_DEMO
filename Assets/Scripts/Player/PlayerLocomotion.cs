@@ -92,7 +92,7 @@ public class PlayerLocomotion : MonoBehaviour
         targetDir += cameraObject.right * inputHandler.horizontal;
 
         targetDir.Normalize();
-        if(!playerManager.isOnGround)
+        if (!playerManager.isOnGround)
             targetDir.y = 0;
 
         if (targetDir == Vector3.zero)
@@ -107,7 +107,7 @@ public class PlayerLocomotion : MonoBehaviour
         myTransform.rotation = targetRotation;
 
     }
-    
+
 
     public void HandleMovement(float delta)
     {
@@ -118,15 +118,15 @@ public class PlayerLocomotion : MonoBehaviour
             return;
         }
         //处理收刀动作以及中断收刀处理
-        if (!playerManager.isAttacking 
-            && inputHandler.moveAmount>0.1f 
+        if (!playerManager.isAttacking
+            && inputHandler.moveAmount > 0.1f
             )
         {
-            if(animateHandler.IsTag("Combo"))
+            if (animateHandler.IsTag("Combo"))
                 animateHandler.anim.SetTrigger("UnEquip");
-            animateHandler.PlayTargetAnimation("Locomotion",false);
+            animateHandler.PlayTargetAnimation("Locomotion", false);
         }
-        
+
         moveDirection = cameraObject.forward * inputHandler.vertical;
         moveDirection += cameraObject.right * inputHandler.horizontal;
         moveDirection.Normalize();
@@ -187,7 +187,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     }
 
-    
+
     public void HandleJump(float delta)
     {
         if (animateHandler.anim_lock || !playerManager.isOnGround)
@@ -215,7 +215,8 @@ public class PlayerLocomotion : MonoBehaviour
     {
         animateHandler.canRotate = false;
         playerManager.isOnLocked = true;
-        animateHandler.PlayTargetAnimation("UnEquipToEquip",false);
+        if(!playerManager.isAttacking||!animateHandler.anim_lock)
+            animateHandler.PlayTargetAnimation("UnEquipToEquip", false);
         animateHandler.ChangeLockLoayer(1f);
 
     }
@@ -224,7 +225,7 @@ public class PlayerLocomotion : MonoBehaviour
     {
         animateHandler.canRotate = true;
         playerManager.isOnLocked = false;
-        if(!animateHandler.anim_lock)
+        if (!animateHandler.anim_lock)
             animateHandler.anim.SetTrigger("UnEquip");
         //animateHandler.PlayTargetAnimation("UnEquipToEquip", false);
         animateHandler.ChangeLockLoayer(0f);
@@ -237,17 +238,17 @@ public class PlayerLocomotion : MonoBehaviour
     {
         //需要清除当前速度
         rigidbody.velocity = Vector3.zero;
-        if ((animateHandler.IsName("Combo3_Start") || animateHandler.IsName("Combo3_Loop") )
-            && playerManager.combo3Loop>=0)
+        if ((animateHandler.IsName("Combo3_Start") || animateHandler.IsName("Combo3_Loop"))
+            && playerManager.combo3Loop >= 0)
         {
             animateHandler.anim.SetBool("Loop", true);
         }
         if (playerManager.isAttacking)
         {
-            animateHandler.SetTrigger("Attack",true,true);
+            animateHandler.SetTrigger("Attack", true, true);
             playerManager.comboStep++;
         }
-        else if(!animateHandler.anim_lock)
+        else if (!animateHandler.anim_lock)
         {
             playerManager.isAttacking = true;
             animateHandler.PlayTargetAnimation("Combo01_01", true);
@@ -271,37 +272,97 @@ public class PlayerLocomotion : MonoBehaviour
                 AttackCombo(delta);
                 break;
         }
-            
-        
+
+
     }
 
     public void AttackHold(float delta)
     {
         rigidbody.velocity = Vector3.zero;
-        if(PlayerManager.Instance.currentTarget!=null)
+        //转向目标
+        if (PlayerManager.Instance.currentTarget != null)
         {
             cameraHandle.CameraFollowTarget(PlayerManager.Instance.currentTarget.transform.position);
-            Vector3 targetDir = -this.transform.position+ PlayerManager.Instance.currentTarget.transform.position;
+            Vector3 targetDir = -this.transform.position + PlayerManager.Instance.currentTarget.transform.position;
             targetDir.Normalize();
             targetDir.y = 0;
-            Quaternion tr = Quaternion.LookRotation( targetDir);
-            Quaternion targetRotation = Quaternion.Slerp(myTransform.rotation, tr,10);            
+            Quaternion tr = Quaternion.LookRotation(targetDir);
+            Quaternion targetRotation = Quaternion.Slerp(myTransform.rotation, tr, 10);
             myTransform.rotation = tr;
-            
+
         }
 
         animateHandler.PlayTargetAnimation("SpecialAttack_Start", true, true);
     }
 
+    public void AttackLock(float delta)
+    {
+        if (inputHandler.vertical >= 0.8f && playerManager.isOnGround)
+        {
+            if (playerManager.isAttacking)
+                return;
+            playerManager.isAttacking = true;
+            //rigidbody.velocity = this.transform.forward * 100f;
+            animateHandler.PlayTargetAnimation("LockAttack_F", true);
+        }
+        else if (inputHandler.vertical <= -0.8f && playerManager.isOnGround)
+        {
+            if (playerManager.isAttacking)
+                return;
+            playerManager.isAttacking = true;
+            animateHandler.PlayTargetAnimation("LockAttack_B", true);
+        }
+        else
+            AttackCombo(delta);
+    }
 
     #endregion
     #region Shoot
     public void Shoot(float delta)
     {
-        GameObject go= Instantiate(KatanaPrefab, KatanaSwordPosition[Random.Range(0, KatanaSwordPosition.Length)].transform);
-        
+        GameObject go = Instantiate(KatanaPrefab, KatanaSwordPosition[Random.Range(0, KatanaSwordPosition.Length)].transform);
+
     }
     public void ShootHold(float delta)
+    {
+        if (inputHandler.vertical >= 0.8f && playerManager.isOnLocked)
+        {
+            LongHoldShoot_F();
+        }
+        else if (inputHandler.vertical <= -0.8f && playerManager.isOnLocked)
+        {
+            LongHoldShoot_B();
+        }
+        else
+            LongHoldShoot();
+    }
+
+    private void LongHoldShoot_F()
+    {
+        for(int i = 0;i<KatanaSwordPosition.Length;i++)
+        {
+            GameObject go = Instantiate(KatanaPrefab, KatanaSwordPosition[i].transform);
+            go.GetComponent<KatanaMove>().delaytime = 0.1f*i +1;
+            go.GetComponent<KatanaMove>().speed *= 2;
+        }
+    }
+
+    private void LongHoldShoot_B()
+    {
+        if (playerManager.currentTarget.GetComponentInChildren<KatanaRoundParent>() != null)
+        {
+            playerManager.currentTarget.GetComponentInChildren<KatanaRoundParent>().FreezeKatana();
+        }
+        else
+        {
+            GameObject go = Instantiate(KatanaRoundPrefab, playerManager.currentTarget);
+            go.transform.localPosition = new Vector3(0, 0, 0);
+            //go.transform.localScale = new Vector3(100,100,100);
+            go.GetComponent<KatanaRoundParent>().flyDirection = -1;
+        }
+    }
+
+    private void LongHoldShoot()
     {
         if (GetComponentInChildren<KatanaRoundParent>() != null)
         {
@@ -311,7 +372,6 @@ public class PlayerLocomotion : MonoBehaviour
         {
             GameObject go = Instantiate(KatanaRoundPrefab, this.transform);
         }
-            
     }
     #endregion
 
@@ -320,7 +380,7 @@ public class PlayerLocomotion : MonoBehaviour
     {
         if (playerManager.isAttacking)
         {
-            rigidbody.velocity = new Vector3(animateHandler.anim.velocity.x,rigidbody.velocity.y, animateHandler.anim.velocity.z);
+            rigidbody.velocity = new Vector3(animateHandler.anim.velocity.x, rigidbody.velocity.y / 2, animateHandler.anim.velocity.z);
         }
     }
 
@@ -330,7 +390,7 @@ public class PlayerLocomotion : MonoBehaviour
         {
             if (!SwordParticle.activeSelf)
                 SwordParticle.SetActive(true);
-            return;             
+            return;
         }
         else
         {
@@ -338,19 +398,29 @@ public class PlayerLocomotion : MonoBehaviour
                 SwordParticle.SetActive(false);
             return;
         }
-       
+
     }
 
     public void SetHandLighting()
     {
-        if(!HandParticle.isPlaying)
+        if (!HandParticle.isPlaying)
             HandParticle.Play();
-        
+
     }
 
-    public void InstantiateSpecialAttack(){
+    public void InstantiateSpecialAttack()
+    {
         Instantiate(SpecialAttackParticle, PlayerManager.Instance.currentTarget.transform);
         playerManager.AttackPause(2);
+    }
+
+    public void EnableRushTime()
+    {
+        playerManager.rushTime = true;
+    }
+    public void DisableRushTime()
+    {
+        playerManager.rushTime = false;
     }
 }
 

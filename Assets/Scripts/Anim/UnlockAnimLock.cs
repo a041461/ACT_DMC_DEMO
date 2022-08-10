@@ -22,6 +22,7 @@ public class UnlockAnimLock : StateMachineBehaviour
        
         animator.SetBool("anim_lock", false);
         animator.applyRootMotion = false;
+        PlayerManager.Instance.rushTime = false;
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

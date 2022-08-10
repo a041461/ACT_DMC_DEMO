@@ -33,7 +33,7 @@ public class FaceToPlayerAction : EnemyAction
             animator.SetTrigger("ToFly");
             return TaskStatus.Success;
         }
-        if (angle < 5f)
+        if (angle < 10f)
         {
             animator.SetTrigger("ToIdle");
             return TaskStatus.Success;
