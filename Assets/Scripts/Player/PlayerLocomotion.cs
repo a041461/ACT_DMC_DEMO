@@ -30,6 +30,8 @@ public class PlayerLocomotion : MonoBehaviour
 
     public GameObject KatanaRoundPrefab;
 
+    public GameObject KatanaRaindPrefab;
+
     [Header("Stats")]
     [SerializeField]
     float movementSpeed = 5;
@@ -297,7 +299,17 @@ public class PlayerLocomotion : MonoBehaviour
 
     public void AttackLock(float delta)
     {
-        if (inputHandler.vertical >= 0.8f && playerManager.isOnGround)
+        if(inputHandler.backForwardFlag && playerManager.isOnGround)
+        {
+            if (playerManager.isAttacking)
+                return;
+            playerManager.isAttacking = true;
+            inputHandler.m_BFEnterTime = 0;
+            inputHandler.backForwardFlag =false;
+            //rigidbody.velocity = this.transform.forward * 100f;
+            animateHandler.PlayTargetAnimation("LockAttack_BF", true);
+        }
+        else if (inputHandler.vertical >= 0.8f && playerManager.isOnGround)
         {
             if (playerManager.isAttacking)
                 return;
@@ -325,7 +337,11 @@ public class PlayerLocomotion : MonoBehaviour
     }
     public void ShootHold(float delta)
     {
-        if (inputHandler.vertical >= 0.8f && playerManager.isOnLocked)
+        if (inputHandler.backForwardFlag )
+        {
+            LongHoldShoot_BF();
+        }
+        else if (inputHandler.vertical >= 0.8f && playerManager.isOnLocked)
         {
             LongHoldShoot_F();
         }
@@ -335,6 +351,17 @@ public class PlayerLocomotion : MonoBehaviour
         }
         else
             LongHoldShoot();
+    }
+
+    public void LongHoldShoot_BF()
+    {
+        inputHandler.m_BFEnterTime = 0;
+        inputHandler.backForwardFlag = false;
+        if (FindObjectOfType<KatanaRain_area>() != null)
+        {
+            return;
+        }
+        Instantiate(KatanaRaindPrefab, playerManager.currentTarget.position +new Vector3(0,4,0),Quaternion.identity);
     }
 
     private void LongHoldShoot_F()
@@ -359,6 +386,7 @@ public class PlayerLocomotion : MonoBehaviour
             go.transform.localPosition = new Vector3(0, 0, 0);
             //go.transform.localScale = new Vector3(100,100,100);
             go.GetComponent<KatanaRoundParent>().flyDirection = -1;
+            go.GetComponent<KatanaRoundParent>().splahTime = 1.5f;
         }
     }
 

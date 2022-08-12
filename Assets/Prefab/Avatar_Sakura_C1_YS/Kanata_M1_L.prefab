@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9001685647851690115}
   - component: {fileID: 3378737932260505042}
   - component: {fileID: -3699913375775376798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kanata_M1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,8 +113,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010597805}
+  m_Center: {x: 0.0003046774, y: -3.1044087e-11, z: 0.0021829456}
 --- !u!1 &8756972733493024987
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 8759784808605895219}
   - component: {fileID: 8880681597939226139}
   - component: {fileID: 8881937125138315459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}

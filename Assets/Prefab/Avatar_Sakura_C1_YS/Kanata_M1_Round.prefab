@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4769079525551022675}
   - component: {fileID: 918900038505832774}
   - component: {fileID: 1362881728282910475}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13526637517796238}
-  m_LocalRotation: {x: 0, y: 0.86602545, z: 0, w: 0.49999994}
-  m_LocalPosition: {x: 0.0056, y: 0, z: -0.00323}
+  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
+  m_LocalPosition: {x: 0.00494, y: 0, z: -0.00494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2611991848846987321}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!33 &38670059096915242
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -97,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &1362881728282910475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,7 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &24179968562225782
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +128,7 @@ GameObject:
   - component: {fileID: 7507387121010827537}
   - component: {fileID: 4059591198509061981}
   - component: {fileID: 3784771285503021365}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,8 +212,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &3784771285503021365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,7 +226,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &617705259003771682
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +241,7 @@ GameObject:
   - component: {fileID: 2611991848846987321}
   - component: {fileID: 5834832979030189322}
   - component: {fileID: 8463415267856756339}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,16 +262,12 @@ Transform:
   m_Children:
   - {fileID: 6253993011806001978}
   - {fileID: 8391186506352487514}
-  - {fileID: 6841589144831803602}
   - {fileID: 3932547525081436166}
   - {fileID: 130480032723900286}
-  - {fileID: 7351337143400308281}
   - {fileID: 1658864480170334765}
-  - {fileID: 7650114770214953144}
   - {fileID: 4097806236901983616}
   - {fileID: 731325305057417682}
   - {fileID: 4798405549068664540}
-  - {fileID: 2454363909929490430}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -304,6 +306,7 @@ MonoBehaviour:
   splahTime: 10
   freezeTime: 1
   flyTime: 2
+  flyDirection: 1
 --- !u!1 &1781275919814262759
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +320,7 @@ GameObject:
   - component: {fileID: 8247411202455163106}
   - component: {fileID: 1947392266909984944}
   - component: {fileID: 8689227764772021159}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,14 +334,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781275919814262759}
-  m_LocalRotation: {x: 0, y: 0.2588191, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0.00333, y: 0, z: 0.00576}
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0.0052, y: 0, z: 0.0052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2611991848846987321}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!33 &1241577820597337844
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -401,8 +404,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &8689227764772021159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,7 +418,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &1889003816106152237
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +435,7 @@ GameObject:
   - component: {fileID: 984051549561450369}
   - component: {fileID: 5980391156367087531}
   - component: {fileID: 6304026828928433891}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,8 +519,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &6304026828928433891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,119 +533,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
---- !u!1 &2410882460040301773
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6841589144831803602}
-  - component: {fileID: 4343133770142846982}
-  - component: {fileID: 7082994724240744039}
-  - component: {fileID: 6228427758066960455}
-  - component: {fileID: 7101921394740584978}
-  m_Layer: 0
-  m_Name: Kanata_M1_Round (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6841589144831803602
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2410882460040301773}
-  m_LocalRotation: {x: 0, y: 0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0.00632, y: 0, z: 0.00365}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2611991848846987321}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
---- !u!33 &4343133770142846982
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2410882460040301773}
-  m_Mesh: {fileID: 4300000, guid: cca7f16001af40147870cedfa57e6f0b, type: 2}
---- !u!23 &7082994724240744039
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2410882460040301773}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ab9e96085ab78a34cae4a508051c3b5d, type: 2}
-  - {fileID: 2100000, guid: 86f62a85ab486384198278b4346639f4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6228427758066960455
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2410882460040301773}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
---- !u!114 &7101921394740584978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2410882460040301773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &4311684318549524858
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +550,7 @@ GameObject:
   - component: {fileID: 8036834993755712783}
   - component: {fileID: 348954463822511420}
   - component: {fileID: 5668605561630085968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,8 +634,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &5668605561630085968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,7 +648,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &4500105505284845282
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +665,7 @@ GameObject:
   - component: {fileID: 6331950875110029628}
   - component: {fileID: 7098199268467931669}
   - component: {fileID: 109979190082504817}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,14 +679,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4500105505284845282}
-  m_LocalRotation: {x: 0, y: 0.5, z: -0, w: -0.8660254}
-  m_LocalPosition: {x: -0.00548, y: 0, z: 0.00316}
+  m_LocalRotation: {x: 0, y: 0.3826836, z: -0, w: -0.92387944}
+  m_LocalPosition: {x: -0.00481, y: 0, z: 0.00481}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2611991848846987321}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 300, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 315, z: 0}
 --- !u!33 &2477423652800546431
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -849,8 +749,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &109979190082504817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +763,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &5851839389129990981
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,7 +780,7 @@ GameObject:
   - component: {fileID: 6638635657159226804}
   - component: {fileID: 7838588319895503027}
   - component: {fileID: 7661455318591170058}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -891,14 +794,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5851839389129990981}
-  m_LocalRotation: {x: 0, y: 0.8660254, z: -0, w: -0.5}
-  m_LocalPosition: {x: -0.00536, y: 0, z: -0.0031}
+  m_LocalRotation: {x: 0, y: 0.9238796, z: -0, w: -0.38268325}
+  m_LocalPosition: {x: -0.00497, y: 0, z: -0.00497}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2611991848846987321}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 240, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 225, z: 0}
 --- !u!33 &5359443286784045572
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -961,8 +864,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &7661455318591170058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,343 +878,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
---- !u!1 &6665881373906507092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2454363909929490430}
-  - component: {fileID: 4255429473341922575}
-  - component: {fileID: 1306758823276573348}
-  - component: {fileID: 4677386481635865682}
-  - component: {fileID: 1740065023442403811}
-  m_Layer: 0
-  m_Name: Kanata_M1_Round (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2454363909929490430
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6665881373906507092}
-  m_LocalRotation: {x: 0, y: 0.25881916, z: -0, w: -0.9659258}
-  m_LocalPosition: {x: -0.00307, y: 0, z: 0.00532}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2611991848846987321}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 330, z: 0}
---- !u!33 &4255429473341922575
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6665881373906507092}
-  m_Mesh: {fileID: 4300000, guid: cca7f16001af40147870cedfa57e6f0b, type: 2}
---- !u!23 &1306758823276573348
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6665881373906507092}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ab9e96085ab78a34cae4a508051c3b5d, type: 2}
-  - {fileID: 2100000, guid: 86f62a85ab486384198278b4346639f4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4677386481635865682
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6665881373906507092}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
---- !u!114 &1740065023442403811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6665881373906507092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destoryCount: 3
---- !u!1 &6703586733427553384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7351337143400308281}
-  - component: {fileID: 3640003271582915260}
-  - component: {fileID: 5777660023481655364}
-  - component: {fileID: 2939790223594808764}
-  - component: {fileID: 2083660509313609647}
-  m_Layer: 0
-  m_Name: Kanata_M1_Round (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7351337143400308281
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703586733427553384}
-  m_LocalRotation: {x: 0, y: 0.9659258, z: 0, w: 0.2588191}
-  m_LocalPosition: {x: 0.00317, y: 0, z: -0.00549}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2611991848846987321}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 150, z: 0}
---- !u!33 &3640003271582915260
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703586733427553384}
-  m_Mesh: {fileID: 4300000, guid: cca7f16001af40147870cedfa57e6f0b, type: 2}
---- !u!23 &5777660023481655364
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703586733427553384}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ab9e96085ab78a34cae4a508051c3b5d, type: 2}
-  - {fileID: 2100000, guid: 86f62a85ab486384198278b4346639f4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2939790223594808764
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703586733427553384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
---- !u!114 &2083660509313609647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703586733427553384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destoryCount: 3
---- !u!1 &7148264483910234949
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7650114770214953144}
-  - component: {fileID: 543165327748937427}
-  - component: {fileID: 6992880421719210824}
-  - component: {fileID: 8680956842684662077}
-  - component: {fileID: 8745231701101432246}
-  m_Layer: 0
-  m_Name: Kanata_M1_Round (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7650114770214953144
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7148264483910234949}
-  m_LocalRotation: {x: 0, y: 0.9659259, z: -0, w: -0.25881898}
-  m_LocalPosition: {x: -0.00316, y: 0, z: -0.00547}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2611991848846987321}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 210, z: 0}
---- !u!33 &543165327748937427
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7148264483910234949}
-  m_Mesh: {fileID: 4300000, guid: cca7f16001af40147870cedfa57e6f0b, type: 2}
---- !u!23 &6992880421719210824
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7148264483910234949}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ab9e96085ab78a34cae4a508051c3b5d, type: 2}
-  - {fileID: 2100000, guid: 86f62a85ab486384198278b4346639f4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8680956842684662077
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7148264483910234949}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
---- !u!114 &8745231701101432246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7148264483910234949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destoryCount: 3
+  flyDirection: 1
+  flyTime: 2
 --- !u!1 &9119503409176223376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +895,7 @@ GameObject:
   - component: {fileID: 1235193849683112534}
   - component: {fileID: 1152418720160148563}
   - component: {fileID: 8365614987082519280}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Kanata_M1_Round
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,8 +979,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.012912609}
-  m_Center: {x: 0.0003046774, y: -2.910383e-11, z: 0.0033403595}
+  m_Size: {x: 0.0010513924, y: 0.0005329843, z: 0.010926197}
+  m_Center: {x: 0.0003046774, y: -3.7252902e-11, z: 0.0023471552}
 --- !u!114 &8365614987082519280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1423,4 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f3b16734b21904cadd3ecb1d712c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fire: 0
   destoryCount: 3
+  flyDirection: 1
+  flyTime: 2

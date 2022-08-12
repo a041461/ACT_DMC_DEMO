@@ -202,7 +202,7 @@
                 {
                     "name": "",
                     "id": "7ff8723e-50dc-409f-bfbf-53cacc3a8d7f",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -247,6 +247,17 @@
                     "name": "",
                     "id": "a1f79e17-af97-41c8-9131-34fdf8ce2c29",
                     "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1493f300-100b-4668-8b9f-a6bf1a50dfe4",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 
@@ -31,8 +32,13 @@ public class EnemyManager : MonoBehaviour
     public GameObject whispAttackCollider;
     public Collider screamCollider;
     private Collider[] colliderList;
+    private Animator anim;
 
 
+    private void Start()
+    {
+        anim = this.GetComponent<Animator>();
+    }
     public void Update()
     {
         colliderList = Physics.OverlapSphere(transform.position, 10f, 1 << LayerMask.NameToLayer("Player"));
@@ -69,6 +75,18 @@ public class EnemyManager : MonoBehaviour
             CameraHandle.Instance.CameraShake();
         }
         
+    }
+    public void AttackSlow()
+    {
+        StartCoroutine(IAttackSlow());
+    }
+    IEnumerator IAttackSlow()
+    {       
+        if (anim != null)
+            anim.speed = 0.1f;
+        float pauseTime = 3f;
+        yield return new WaitForSecondsRealtime(pauseTime);
+        anim.speed = 1;
     }
     #region CollisionPart
 

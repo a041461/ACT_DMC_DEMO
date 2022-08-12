@@ -15,12 +15,15 @@ public class InputHandler : MonoBehaviour
     public bool b_Input;
     public bool rollFlag;
     public bool jumpFlag;
+    public bool backForwardFlag;
+
 
     float m_HoldTime;
     float m_LateTime;
+    public float m_BFEnterTime;
 
     float m_ShootHoldTime;
-    
+
 
     bool m_LateTimeStart;
 
@@ -64,6 +67,7 @@ public class InputHandler : MonoBehaviour
         LockInput(delta);
         AttackInput(delta);
         ShootInput(delta);
+        SetBackForwardFlag();
         if (m_LateTimeStart)
             m_LateTime += delta;
         if (m_LateTime > 100f)
@@ -72,8 +76,9 @@ public class InputHandler : MonoBehaviour
         {
             playerLocomotion.SetHandLighting();
         }
-        if(m_HoldTime>=1f)
+        if (m_HoldTime >= 1f)
             playerLocomotion.SetSwordLighting(true);
+
     }
 
     public void MoveInput(float delta)
@@ -83,6 +88,37 @@ public class InputHandler : MonoBehaviour
         moveAmount = Mathf.Clamp01(Mathf.Abs(horizontal) + Mathf.Abs(vertical));
         mouseX = cameraInput.x;
         mouseY = cameraInput.y;
+    }
+
+    private void SetBackForwardFlag()
+    {
+
+        if (m_BFEnterTime != 0)
+            m_BFEnterTime += Time.deltaTime;
+        if (m_BFEnterTime >= 1f)
+            m_BFEnterTime = 0;
+        if (m_BFEnterTime == 0)
+            backForwardFlag = false;
+
+        if (PlayerManager.Instance.isOnLocked)
+        {
+            if (vertical <= -0.8f)
+            {
+                m_BFEnterTime += Time.deltaTime;
+            }
+            else if (vertical >= 0.8f)
+            {
+                if (m_BFEnterTime <= 0.5f&&m_BFEnterTime>0)
+                {
+                    backForwardFlag = true;
+                }               
+                else
+                {
+                    m_BFEnterTime = 0;
+                }
+
+            }
+        }
     }
 
     public void HandleRollInput(float delta)
@@ -141,7 +177,7 @@ public class InputHandler : MonoBehaviour
             //TODO 添加完美次元斩以及动画判定
             Debug.Log("m_durationTime:" + m_HoldTime);
             if (m_HoldTime >= 0.8f)
-            {               
+            {
                 playerLocomotion.SetSwordLighting(false);
                 playerLocomotion.AttackHold(delta);
             }
@@ -152,10 +188,20 @@ public class InputHandler : MonoBehaviour
 
     public void ShootInput(float delta)
     {
-         if (inputActions.PlayerAction.Fire.WasPressedThisFrame())
+
+        if (inputActions.PlayerAction.Fire.WasPressedThisFrame())
         {
-            playerLocomotion.Shoot(delta);          
+            if (backForwardFlag)
+            {
+                playerLocomotion.LongHoldShoot_BF();
+            }
+            else
+            {
+                playerLocomotion.Shoot(delta);
+            }
+            
         }
+
         if (inputActions.PlayerAction.Fire.IsPressed())
         {
             m_ShootHoldTime += delta;
@@ -167,7 +213,7 @@ public class InputHandler : MonoBehaviour
         }
         if (inputActions.PlayerAction.Fire.WasReleasedThisFrame())
         {
-            
+
             Debug.Log("m_durationTime:" + m_ShootHoldTime);
             if (m_ShootHoldTime >= 0.8f)
             {
@@ -180,7 +226,7 @@ public class InputHandler : MonoBehaviour
             m_ShootHoldTime = 0f;
         }
     }
-    
+
 }
 
 

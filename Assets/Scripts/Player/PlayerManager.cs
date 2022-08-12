@@ -79,6 +79,8 @@ public class PlayerManager : MonoBehaviour
             if (enemyManager == null)
                 enemyManager = other.GetComponent<EnemyManager>();
             enemyManager.paramator.health-=attackDamage;
+            if (enemyManager.GetComponent<Animator>() != null)
+                enemyManager.GetComponent<Animator>().speed = 1f;
             StartCoroutine(IAttackShake(enemyManager.gameObject,0.1f,0.1f));
             //enemyManager.OpenSwordLine();
             switch (attackDamage)
@@ -132,6 +134,8 @@ public class PlayerManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(pauseTime);
         animateHandler.anim.speed = 1;
     }
+
+
 
     IEnumerator IAttackShake(GameObject go,float duartion,float stength)
     {
