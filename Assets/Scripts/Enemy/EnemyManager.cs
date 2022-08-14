@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
-
+using Random = UnityEngine.Random;
 
 [Serializable]
 public class Paramator
@@ -22,6 +22,7 @@ public class Paramator
 }
 public class EnemyManager : MonoBehaviour
 {
+    public float attackDamage;
     public Paramator paramator;
     public bool secondForm;
     public GameObject sword;
@@ -58,7 +59,8 @@ public class EnemyManager : MonoBehaviour
 
     public void OnParticleCollision(GameObject other)
     {
-        paramator.health--;
+        paramator.health-=0.5f;
+        AttackPause(0.2f);
         //PlayerManager.Instance.AttackPause(1f);
     }
 
@@ -75,6 +77,18 @@ public class EnemyManager : MonoBehaviour
             CameraHandle.Instance.CameraShake();
         }
         
+    }
+
+    public void AttackPause(float duartion)
+    {
+        StartCoroutine(IAttackPause(duartion));
+    }
+    IEnumerator IAttackPause(float duartion)
+    {
+        float pauseTime = duartion / 60f;
+        anim.speed = 0;
+        yield return new WaitForSecondsRealtime(pauseTime);
+        anim.speed = 1;
     }
     public void AttackSlow()
     {
@@ -135,4 +149,32 @@ public class EnemyManager : MonoBehaviour
         screamCollider.enabled = false;
     }
     #endregion
+
+    public void OnAttacked(float damage)
+    {
+        paramator.health -= damage;
+        if (anim != null)
+            anim.speed = 1f;
+        StartCoroutine(IAttackShake( 0.1f, 0.1f));
+    }  
+
+    IEnumerator IAttackShake( float duartion, float stength)
+    {
+        Vector3 startPosition = transform.position;
+        while (duartion > 0)
+        {
+            transform.position = Random.insideUnitSphere * stength + startPosition;
+            duartion -= Time.deltaTime;
+        }
+        yield return null;
+        transform.position = startPosition;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PlayerManager.Instance.OnAttacked(attackDamage);
+        }
+    }
 }

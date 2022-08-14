@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     public bool rushTime = false;
     public int comboStep = 0;
     public int combo3Loop = 0;
-    public int attackDamage = 0;
+    public float attackDamage = 0;
     CapsuleCollider capsuleCollider;
     float radius;
     Vector3 pointBottom, pointTop;
@@ -20,6 +20,7 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager Instance;
     public Transform currentTarget;
     private Collider[] colliderList;
+    public float health=100;
 
     // Start is called before the first frame update
     void Start()
@@ -78,10 +79,7 @@ public class PlayerManager : MonoBehaviour
             EnemyManager enemyManager = other.GetComponentInParent<EnemyManager>();
             if (enemyManager == null)
                 enemyManager = other.GetComponent<EnemyManager>();
-            enemyManager.paramator.health-=attackDamage;
-            if (enemyManager.GetComponent<Animator>() != null)
-                enemyManager.GetComponent<Animator>().speed = 1f;
-            StartCoroutine(IAttackShake(enemyManager.gameObject,0.1f,0.1f));
+            enemyManager.OnAttacked(attackDamage);           
             //enemyManager.OpenSwordLine();
             switch (attackDamage)
             {
@@ -101,12 +99,18 @@ public class PlayerManager : MonoBehaviour
             }            
         }
 
-        if (other.CompareTag("EnemyAttack") && !rushTime)
+       
+    }
+
+    public void OnAttacked(float damage)
+    {
+        if (!rushTime)
         {
             CameraShake();
             int randomNumber = Random.Range(1, 4);
-            animateHandler.PlayTargetAnimation("Hit0"+ randomNumber, true);
+            animateHandler.PlayTargetAnimation("Hit0" + randomNumber, true);
         }
+       
     }
 
     private void OnTriggerExit(Collider other)
@@ -135,19 +139,6 @@ public class PlayerManager : MonoBehaviour
         animateHandler.anim.speed = 1;
     }
 
-
-
-    IEnumerator IAttackShake(GameObject go,float duartion,float stength)
-    {
-        Vector3 startPosition = go.transform.position;
-        while (duartion > 0)
-        {
-            go.transform.position = Random.insideUnitSphere* stength + startPosition;
-            duartion -= Time.deltaTime;
-        }
-        yield return null;
-        go.transform.position = startPosition;
-    }
 
     public void AttackFast(float duartion)
     {

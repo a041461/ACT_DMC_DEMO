@@ -43,7 +43,7 @@ public class KatanaMove : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             EnemyManager enemyManager = other.GetComponentInParent<EnemyManager>();
-            enemyManager.paramator.health--;
+            enemyManager.OnAttacked(0.1f);
             landed = true;
             this.transform.parent = other.transform;
         }
