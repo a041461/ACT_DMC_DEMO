@@ -19,6 +19,7 @@ public class Paramator
     public LayerMask AttackLayer;
     public bool dead;
     public int stage;
+    public float chaseDistance = 3f;
 }
 public class EnemyManager : MonoBehaviour
 {
@@ -34,11 +35,12 @@ public class EnemyManager : MonoBehaviour
     public Collider screamCollider;
     private Collider[] colliderList;
     private Animator anim;
-
+    private FSMManager fSMManager;
 
     private void Start()
     {
         anim = this.GetComponent<Animator>();
+        fSMManager = this.GetComponent<FSMManager>();
     }
     public void Update()
     {
@@ -59,24 +61,24 @@ public class EnemyManager : MonoBehaviour
 
     public void OnParticleCollision(GameObject other)
     {
-        paramator.health-=0.5f;
+        paramator.health -= 0.5f;
         AttackPause(0.2f);
         //PlayerManager.Instance.AttackPause(1f);
     }
 
     public void OpenSwordLine()
     {
-        if(swordLine!=null)
-            swordLine[UnityEngine.Random.Range(0, swordLine.Length-1)].SetActive(true);
+        if (swordLine != null)
+            swordLine[UnityEngine.Random.Range(0, swordLine.Length - 1)].SetActive(true);
     }
 
     public void CameraShake()
     {
-        for(float time = 0; time <= 1f; time += Time.deltaTime)
+        for (float time = 0; time <= 1f; time += Time.deltaTime)
         {
             CameraHandle.Instance.CameraShake();
         }
-        
+
     }
 
     public void AttackPause(float duartion)
@@ -95,7 +97,7 @@ public class EnemyManager : MonoBehaviour
         StartCoroutine(IAttackSlow());
     }
     IEnumerator IAttackSlow()
-    {       
+    {
         if (anim != null)
             anim.speed = 0.1f;
         float pauseTime = 3f;
@@ -106,14 +108,13 @@ public class EnemyManager : MonoBehaviour
 
     public void OpenAttackCollision()
     {
-        if(paramator.stage > 0)
+        if (paramator.stage > 0)
         {
             swordAttackCollider.enabled = true;
         }
-        else
-        {
-            fistAttackCollider.enabled = true;
-        }
+
+        fistAttackCollider.enabled = true;
+
     }
     public void CloseAttackCollision()
     {
@@ -123,8 +124,8 @@ public class EnemyManager : MonoBehaviour
 
     public void OpenWhispAttackCollision()
     {
-        Collider[] whispAttackColliders =  whispAttackCollider.GetComponentsInChildren<Collider>(true);
-        for(int i = 0; i < whispAttackColliders.Length-1; i++)
+        Collider[] whispAttackColliders = whispAttackCollider.GetComponentsInChildren<Collider>(true);
+        for (int i = 0; i < whispAttackColliders.Length - 1; i++)
         {
             whispAttackColliders[i].enabled = true;
         }
@@ -132,7 +133,7 @@ public class EnemyManager : MonoBehaviour
     public void CloseWhispAttackCollision()
     {
         Collider[] whispAttackColliders = whispAttackCollider.GetComponentsInChildren<Collider>(true);
-        for (int i = 0; i < whispAttackColliders.Length-1; i++)
+        for (int i = 0; i < whispAttackColliders.Length - 1; i++)
         {
             whispAttackColliders[i].enabled = false;
         }
@@ -155,10 +156,20 @@ public class EnemyManager : MonoBehaviour
         paramator.health -= damage;
         if (anim != null)
             anim.speed = 1f;
-        StartCoroutine(IAttackShake( 0.1f, 0.1f));
-    }  
+        StartCoroutine(IAttackShake(0.1f, 0.1f));
+        if (fSMManager != null)
+        {
+            if (paramator.health <= 0)
+            {
+                fSMManager.TransStates(StateType.Dead);
+            }
+            else
+                fSMManager.TransStates(StateType.Hit);
+        }
 
-    IEnumerator IAttackShake( float duartion, float stength)
+    }
+
+    IEnumerator IAttackShake(float duartion, float stength)
     {
         Vector3 startPosition = transform.position;
         while (duartion > 0)

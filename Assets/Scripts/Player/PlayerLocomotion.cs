@@ -32,6 +32,8 @@ public class PlayerLocomotion : MonoBehaviour
 
     public GameObject KatanaRaindPrefab;
 
+    public GameObject PlayerCamera;
+
     [Header("Stats")]
     [SerializeField]
     float movementSpeed = 5;
@@ -61,6 +63,14 @@ public class PlayerLocomotion : MonoBehaviour
     private void Update()
     {
         float delta = Time.deltaTime;
+        if (!PlayerCamera.activeInHierarchy)
+        {
+            inputHandler.horizontal = 0;
+            inputHandler.vertical = 0;
+            HandleMovement(delta);
+            return;
+        }
+        
         inputHandler.TickInput(delta);
         HandleMovement(delta);
     }

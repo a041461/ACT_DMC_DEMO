@@ -154,7 +154,7 @@ public class PlayerManager : MonoBehaviour
 
     void DetectEnemy()
     {
-        colliderList = Physics.OverlapSphere(transform.position,10f,1<<LayerMask.NameToLayer("Enemy"));
+        colliderList = Physics.OverlapSphere(transform.position,5f,1<<LayerMask.NameToLayer("Enemy"));
         if (colliderList.Length >0)
         {          
             for(int i = 0; i < colliderList.Length; i++)

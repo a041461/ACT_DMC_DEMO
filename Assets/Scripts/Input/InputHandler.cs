@@ -162,7 +162,7 @@ public class InputHandler : MonoBehaviour
             if (m_LateTime >= 0.5f && m_LateTime <= 1f)
                 playerLocomotion.AttackLaterCombo(delta);
             else if (PlayerManager.Instance.isOnLocked)
-                playerLocomotion.AttackLock(delta);
+               playerLocomotion.AttackLock(delta);
             else
                 playerLocomotion.AttackCombo(delta);
             m_LateTimeStart = false;
