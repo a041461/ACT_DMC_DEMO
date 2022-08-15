@@ -159,7 +159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 118136, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 121444, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_TagString
@@ -259,47 +259,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 401074, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.000002202174
+      value: -0.0000029250973
       objectReference: {fileID: 0}
     - target: {fileID: 401074, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000065967197
+      value: -0.0000008762273
       objectReference: {fileID: 0}
     - target: {fileID: 401074, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -51.522743
+      value: -51.522747
       objectReference: {fileID: 0}
     - target: {fileID: 401366, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.32243037
+      value: 4.016766
       objectReference: {fileID: 0}
     - target: {fileID: 401366, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.0895821
+      value: 2.106501
       objectReference: {fileID: 0}
     - target: {fileID: 401366, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 34.59856
+      value: 40.705086
       objectReference: {fileID: 0}
     - target: {fileID: 405176, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.042115066
+      value: -0.18360391
       objectReference: {fileID: 0}
     - target: {fileID: 405176, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.11371009
+      value: -1.4018278
       objectReference: {fileID: 0}
     - target: {fileID: 405176, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -8.489359
+      value: -5.6859803
       objectReference: {fileID: 0}
     - target: {fileID: 405586, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000021674882
+      value: -0.0000010822891
       objectReference: {fileID: 0}
     - target: {fileID: 405586, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000016653887
+      value: 0.0000044051894
       objectReference: {fileID: 0}
     - target: {fileID: 405586, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -307,11 +307,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 406144, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000014701438
+      value: -0.0000012692385
       objectReference: {fileID: 0}
     - target: {fileID: 406144, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000026649977
+      value: -0.000002535141
       objectReference: {fileID: 0}
     - target: {fileID: 406144, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -319,23 +319,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407316, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000010875375
+      value: 0.0000010651911
       objectReference: {fileID: 0}
     - target: {fileID: 407316, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000013164267
+      value: 0.00000057846046
       objectReference: {fileID: 0}
     - target: {fileID: 407316, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 39.561077
+      value: 47.72831
       objectReference: {fileID: 0}
     - target: {fileID: 408868, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5.194318
+      value: -5.1943154
       objectReference: {fileID: 0}
     - target: {fileID: 408868, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 1.7778429
+      value: 1.777842
       objectReference: {fileID: 0}
     - target: {fileID: 408868, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -343,27 +343,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 409010, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000013936044
+      value: -0.0000040980917
       objectReference: {fileID: 0}
     - target: {fileID: 409010, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000091482826
+      value: 0.0000006533502
       objectReference: {fileID: 0}
     - target: {fileID: 409010, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -16.911627
+      value: -16.91163
       objectReference: {fileID: 0}
     - target: {fileID: 409090, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 20.311804
+      value: 22.553982
       objectReference: {fileID: 0}
     - target: {fileID: 409090, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 12.550885
+      value: 11.767212
       objectReference: {fileID: 0}
     - target: {fileID: 409090, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 131.91187
+      value: 121.48526
       objectReference: {fileID: 0}
     - target: {fileID: 410588, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_RootOrder
@@ -411,39 +411,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 412902, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.083005175
+      value: 7.2538776
       objectReference: {fileID: 0}
     - target: {fileID: 412902, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.062452
+      value: -26.100285
       objectReference: {fileID: 0}
     - target: {fileID: 412902, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -16.880053
+      value: -9.090516
       objectReference: {fileID: 0}
     - target: {fileID: 413864, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -15.266309
+      value: -1.0306749
       objectReference: {fileID: 0}
     - target: {fileID: 413864, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 21.862188
+      value: 3.4835515
       objectReference: {fileID: 0}
     - target: {fileID: 413864, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 30.878166
+      value: 17.254534
       objectReference: {fileID: 0}
     - target: {fileID: 413874, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.000004848821
+      value: 0.0000065528366
       objectReference: {fileID: 0}
     - target: {fileID: 413874, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.000038874256
+      value: 0.000036762794
       objectReference: {fileID: 0}
     - target: {fileID: 413874, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -14.230008
+      value: -14.230007
       objectReference: {fileID: 0}
     - target: {fileID: 414914, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 414914, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 6.9075866
+      value: 6.9075847
       objectReference: {fileID: 0}
     - target: {fileID: 416658, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalScale.y
@@ -495,83 +495,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416658, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 7.9682612
+      value: 6.1946044
       objectReference: {fileID: 0}
     - target: {fileID: 416658, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.06847628
+      value: 0.5762774
       objectReference: {fileID: 0}
     - target: {fileID: 416658, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -14.1793165
+      value: -16.150484
       objectReference: {fileID: 0}
     - target: {fileID: 418166, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 14.522614
+      value: 8.228551
       objectReference: {fileID: 0}
     - target: {fileID: 418166, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -20.343317
+      value: -19.477612
       objectReference: {fileID: 0}
     - target: {fileID: 418166, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 41.230408
+      value: 33.4104
       objectReference: {fileID: 0}
     - target: {fileID: 419716, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.000022968228
+      value: 0.000024738487
       objectReference: {fileID: 0}
     - target: {fileID: 419716, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.000022104035
+      value: 0.00002543958
       objectReference: {fileID: 0}
     - target: {fileID: 419716, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -143.79448
+      value: -130.92862
       objectReference: {fileID: 0}
     - target: {fileID: 420966, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 19.412903
+      value: 16.553068
       objectReference: {fileID: 0}
     - target: {fileID: 420966, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -19.81421
+      value: -19.716885
       objectReference: {fileID: 0}
     - target: {fileID: 420966, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 24.516106
+      value: 15.103365
       objectReference: {fileID: 0}
     - target: {fileID: 422858, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -15.134156
+      value: -16.046642
       objectReference: {fileID: 0}
     - target: {fileID: 422858, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 19.56687
+      value: 21.429228
       objectReference: {fileID: 0}
     - target: {fileID: 422858, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -126.99895
+      value: -117.99973
       objectReference: {fileID: 0}
     - target: {fileID: 422914, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 12.548574
+      value: 9.800049
       objectReference: {fileID: 0}
     - target: {fileID: 422914, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -17.02087
+      value: -18.628105
       objectReference: {fileID: 0}
     - target: {fileID: 422914, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 36.099045
+      value: 25.631466
       objectReference: {fileID: 0}
     - target: {fileID: 424586, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.1026518
+      value: -1.1026549
       objectReference: {fileID: 0}
     - target: {fileID: 424586, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 24.65239
+      value: 24.652384
       objectReference: {fileID: 0}
     - target: {fileID: 424586, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -579,11 +579,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424634, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000011921537
+      value: 0.0000004594369
       objectReference: {fileID: 0}
     - target: {fileID: 424634, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000032360902
+      value: -0.0000049018586
       objectReference: {fileID: 0}
     - target: {fileID: 424634, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -591,11 +591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425488, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000039273996
+      value: 0.000004217493
       objectReference: {fileID: 0}
     - target: {fileID: 425488, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.000003705767
+      value: -0.00000545867
       objectReference: {fileID: 0}
     - target: {fileID: 425488, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -603,35 +603,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425600, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -24.640224
+      value: -21.338814
       objectReference: {fileID: 0}
     - target: {fileID: 425600, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -9.362663
+      value: -11.552398
       objectReference: {fileID: 0}
     - target: {fileID: 425600, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -40.096756
+      value: -29.592007
       objectReference: {fileID: 0}
     - target: {fileID: 426462, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000034119878
+      value: -0.000003179319
       objectReference: {fileID: 0}
     - target: {fileID: 426462, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000025654583
+      value: -0.0000032848855
       objectReference: {fileID: 0}
     - target: {fileID: 426462, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.939346
+      value: -36.93935
       objectReference: {fileID: 0}
     - target: {fileID: 426680, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.00000022696625
+      value: 0.0000006343971
       objectReference: {fileID: 0}
     - target: {fileID: 426680, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000020007888
+      value: -0.0000023929979
       objectReference: {fileID: 0}
     - target: {fileID: 426680, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -639,95 +639,95 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427918, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 11.306048
+      value: 1.4640937
       objectReference: {fileID: 0}
     - target: {fileID: 427918, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -14.903412
+      value: -6.2225857
       objectReference: {fileID: 0}
     - target: {fileID: 427918, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -11.8833275
+      value: -8.384083
       objectReference: {fileID: 0}
     - target: {fileID: 428224, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000023882849
+      value: 0.00000041939893
       objectReference: {fileID: 0}
     - target: {fileID: 428224, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000029790413
+      value: -0.000013105142
       objectReference: {fileID: 0}
     - target: {fileID: 428224, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 65.28404
+      value: 74.41359
       objectReference: {fileID: 0}
     - target: {fileID: 428270, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.0820241
+      value: -3.0643435
       objectReference: {fileID: 0}
     - target: {fileID: 428270, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -16.913515
+      value: -24.385206
       objectReference: {fileID: 0}
     - target: {fileID: 428270, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -22.553848
+      value: -15.100985
       objectReference: {fileID: 0}
     - target: {fileID: 431664, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000048503157
+      value: 0.0000063990074
       objectReference: {fileID: 0}
     - target: {fileID: 431664, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.00003931428
+      value: 0.000037021156
       objectReference: {fileID: 0}
     - target: {fileID: 431664, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -14.230019
+      value: -14.230021
       objectReference: {fileID: 0}
     - target: {fileID: 433024, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000015495935
+      value: -0.00004228507
       objectReference: {fileID: 0}
     - target: {fileID: 433024, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000039776874
+      value: 0.000000451284
       objectReference: {fileID: 0}
     - target: {fileID: 433024, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -68.71553
+      value: -70.68561
       objectReference: {fileID: 0}
     - target: {fileID: 435012, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.7703849
+      value: -8.458495
       objectReference: {fileID: 0}
     - target: {fileID: 435012, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.751757
+      value: -18.666115
       objectReference: {fileID: 0}
     - target: {fileID: 435012, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 34.17476
+      value: 29.12911
       objectReference: {fileID: 0}
     - target: {fileID: 435372, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.1522427
+      value: -0.020008348
       objectReference: {fileID: 0}
     - target: {fileID: 435372, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 4.208313
+      value: 1.9809716
       objectReference: {fileID: 0}
     - target: {fileID: 435372, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 6.0717854
+      value: 15.909484
       objectReference: {fileID: 0}
     - target: {fileID: 436034, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.00019374565
+      value: 0.00019222948
       objectReference: {fileID: 0}
     - target: {fileID: 436034, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.00015506284
+      value: 0.0001558753
       objectReference: {fileID: 0}
     - target: {fileID: 436034, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -735,59 +735,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 436702, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 54.13708
+      value: 54.137074
       objectReference: {fileID: 0}
     - target: {fileID: 436702, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -155.67128
+      value: -155.67126
       objectReference: {fileID: 0}
     - target: {fileID: 436702, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -97.17284
+      value: -97.17282
       objectReference: {fileID: 0}
     - target: {fileID: 441148, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.4423416
+      value: 1.5775912
       objectReference: {fileID: 0}
     - target: {fileID: 441148, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -27.9155
+      value: -29.580193
       objectReference: {fileID: 0}
     - target: {fileID: 441148, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 23.960358
+      value: 22.073565
       objectReference: {fileID: 0}
     - target: {fileID: 441422, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 30.15947
+      value: 21.85764
       objectReference: {fileID: 0}
     - target: {fileID: 441422, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.24771577
+      value: 6.6634116
       objectReference: {fileID: 0}
     - target: {fileID: 441422, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 145.14433
+      value: 143.83498
       objectReference: {fileID: 0}
     - target: {fileID: 442272, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -8.028367
+      value: -5.3523855
       objectReference: {fileID: 0}
     - target: {fileID: 442272, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -17.635311
+      value: -15.820475
       objectReference: {fileID: 0}
     - target: {fileID: 442272, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.213657
+      value: -26.282497
       objectReference: {fileID: 0}
     - target: {fileID: 443836, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000000055204463
+      value: 0.000004467359
       objectReference: {fileID: 0}
     - target: {fileID: 443836, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000002610306
+      value: 0.0000007998942
       objectReference: {fileID: 0}
     - target: {fileID: 443836, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -795,179 +795,179 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444544, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -4.305278
+      value: 5.379429
       objectReference: {fileID: 0}
     - target: {fileID: 444544, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 42.883415
+      value: 46.805264
       objectReference: {fileID: 0}
     - target: {fileID: 444544, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 34.087715
+      value: 32.192223
       objectReference: {fileID: 0}
     - target: {fileID: 444792, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -16.375425
+      value: -10.387865
       objectReference: {fileID: 0}
     - target: {fileID: 444792, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -34.596695
+      value: -32.68645
       objectReference: {fileID: 0}
     - target: {fileID: 444792, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 10.261039
+      value: 23.559505
       objectReference: {fileID: 0}
     - target: {fileID: 445424, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -19.629734
+      value: -25.45595
       objectReference: {fileID: 0}
     - target: {fileID: 445424, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.96602
+      value: -48.520454
       objectReference: {fileID: 0}
     - target: {fileID: 445424, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.34487
+      value: -9.853689
       objectReference: {fileID: 0}
     - target: {fileID: 446410, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.1026578
+      value: 1.1026533
       objectReference: {fileID: 0}
     - target: {fileID: 446410, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -24.652386
+      value: -24.652391
       objectReference: {fileID: 0}
     - target: {fileID: 446410, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -66.71107
+      value: -66.711075
       objectReference: {fileID: 0}
     - target: {fileID: 446518, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.4690511
+      value: 9.011476
       objectReference: {fileID: 0}
     - target: {fileID: 446518, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -41.42941
+      value: -34.40473
       objectReference: {fileID: 0}
     - target: {fileID: 446518, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 21.006636
+      value: 33.878983
       objectReference: {fileID: 0}
     - target: {fileID: 446776, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 6.814791
+      value: -5.3825054
       objectReference: {fileID: 0}
     - target: {fileID: 446776, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -148.11652
+      value: -162.51924
       objectReference: {fileID: 0}
     - target: {fileID: 446776, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -179.55884
+      value: 160.48302
       objectReference: {fileID: 0}
     - target: {fileID: 446832, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 6.9432607
+      value: 0.83496803
       objectReference: {fileID: 0}
     - target: {fileID: 446832, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -15.486804
+      value: -6.190291
       objectReference: {fileID: 0}
     - target: {fileID: 446832, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -17.307499
+      value: -9.117715
       objectReference: {fileID: 0}
     - target: {fileID: 448114, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.9536806e-15
+      value: 0.000000070877995
       objectReference: {fileID: 0}
     - target: {fileID: 448114, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000010488742
+      value: -0.0000008859748
       objectReference: {fileID: 0}
     - target: {fileID: 448114, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.000000106721714
+      value: 0.00000014175599
       objectReference: {fileID: 0}
     - target: {fileID: 451210, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 26.328203
+      value: 20.138247
       objectReference: {fileID: 0}
     - target: {fileID: 451210, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -160.41371
+      value: -153.29187
       objectReference: {fileID: 0}
     - target: {fileID: 451210, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 43.759426
+      value: 41.340805
       objectReference: {fileID: 0}
     - target: {fileID: 452580, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000028853399
+      value: -0.000017136863
       objectReference: {fileID: 0}
     - target: {fileID: 452580, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000035796327
+      value: 0.0000019905983
       objectReference: {fileID: 0}
     - target: {fileID: 452580, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -60.671726
+      value: -65.262405
       objectReference: {fileID: 0}
     - target: {fileID: 453202, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -13.624987
+      value: -10.580563
       objectReference: {fileID: 0}
     - target: {fileID: 453202, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -21.699694
+      value: -25.678358
       objectReference: {fileID: 0}
     - target: {fileID: 453202, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -35.13908
+      value: -24.603205
       objectReference: {fileID: 0}
     - target: {fileID: 454732, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -13.606254
+      value: -5.5498986
       objectReference: {fileID: 0}
     - target: {fileID: 454732, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.718666
+      value: -26.009167
       objectReference: {fileID: 0}
     - target: {fileID: 454732, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -29.816216
+      value: -21.756062
       objectReference: {fileID: 0}
     - target: {fileID: 455310, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.0631171
+      value: 5.2191925
       objectReference: {fileID: 0}
     - target: {fileID: 455310, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -17.435389
+      value: -12.80052
       objectReference: {fileID: 0}
     - target: {fileID: 455310, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -25.28777
+      value: -15.155204
       objectReference: {fileID: 0}
     - target: {fileID: 455530, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -18.30214
+      value: 0.8126401
       objectReference: {fileID: 0}
     - target: {fileID: 455530, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 16.51221
+      value: -1.2153466
       objectReference: {fileID: 0}
     - target: {fileID: 455530, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 12.909959
+      value: 3.1259494
       objectReference: {fileID: 0}
     - target: {fileID: 456312, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.00000010185089
+      value: -0.0000049463306
       objectReference: {fileID: 0}
     - target: {fileID: 456312, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.00000041455846
+      value: 0.0000011203047
       objectReference: {fileID: 0}
     - target: {fileID: 456312, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -975,23 +975,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457662, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.23591645
+      value: -0.41333213
       objectReference: {fileID: 0}
     - target: {fileID: 457662, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 10.547185
+      value: 2.6534362
       objectReference: {fileID: 0}
     - target: {fileID: 457662, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 16.090687
+      value: 20.48016
       objectReference: {fileID: 0}
     - target: {fileID: 457806, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.00000042004118
+      value: -0.0000009624854
       objectReference: {fileID: 0}
     - target: {fileID: 457806, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.000000076142804
+      value: 0.0000021305848
       objectReference: {fileID: 0}
     - target: {fileID: 457806, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -999,119 +999,119 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458884, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.042109597
+      value: 0.15667534
       objectReference: {fileID: 0}
     - target: {fileID: 458884, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.11371432
+      value: -0.48965883
       objectReference: {fileID: 0}
     - target: {fileID: 458884, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 8.489333
+      value: 5.3250556
       objectReference: {fileID: 0}
     - target: {fileID: 460444, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 3.3981245
+      value: -0.64747477
       objectReference: {fileID: 0}
     - target: {fileID: 460444, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -18.812498
+      value: -18.173443
       objectReference: {fileID: 0}
     - target: {fileID: 460444, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 25.354404
+      value: 15.880289
       objectReference: {fileID: 0}
     - target: {fileID: 460700, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -6.638563
+      value: -11.275166
       objectReference: {fileID: 0}
     - target: {fileID: 460700, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 11.477662
+      value: 10.463719
       objectReference: {fileID: 0}
     - target: {fileID: 460700, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 30.636143
+      value: 29.166378
       objectReference: {fileID: 0}
     - target: {fileID: 462408, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 41.3273
+      value: 45.814632
       objectReference: {fileID: 0}
     - target: {fileID: 462408, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -88.609825
+      value: -99.71808
       objectReference: {fileID: 0}
     - target: {fileID: 462408, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -113.494804
+      value: -121.06676
       objectReference: {fileID: 0}
     - target: {fileID: 465604, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.3143415
+      value: -7.7157626
       objectReference: {fileID: 0}
     - target: {fileID: 465604, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -20.431389
+      value: -19.631378
       objectReference: {fileID: 0}
     - target: {fileID: 465604, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 26.021595
+      value: 16.592562
       objectReference: {fileID: 0}
     - target: {fileID: 465874, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.00007765181
+      value: -0.00005232122
       objectReference: {fileID: 0}
     - target: {fileID: 465874, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00008137521
+      value: -0.00005528355
       objectReference: {fileID: 0}
     - target: {fileID: 465874, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -90.00006
+      value: -90.00007
       objectReference: {fileID: 0}
     - target: {fileID: 467052, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.000000640265
+      value: -0.0000016275078
       objectReference: {fileID: 0}
     - target: {fileID: 467052, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000037641257
+      value: 0.0000004948357
       objectReference: {fileID: 0}
     - target: {fileID: 467052, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -16.911627
+      value: -16.911629
       objectReference: {fileID: 0}
     - target: {fileID: 467236, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 14.17004
+      value: 15.47439
       objectReference: {fileID: 0}
     - target: {fileID: 467236, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -86.887856
+      value: -97.14136
       objectReference: {fileID: 0}
     - target: {fileID: 467236, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -177.61296
+      value: -169.77377
       objectReference: {fileID: 0}
     - target: {fileID: 467934, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -25.482857
+      value: -25.64665
       objectReference: {fileID: 0}
     - target: {fileID: 467934, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 167.04874
+      value: 167.32396
       objectReference: {fileID: 0}
     - target: {fileID: 467934, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -47.92557
+      value: -58.293888
       objectReference: {fileID: 0}
     - target: {fileID: 468382, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.00005957072
+      value: 0.000059070044
       objectReference: {fileID: 0}
     - target: {fileID: 468382, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.000015207816
+      value: -0.000015120205
       objectReference: {fileID: 0}
     - target: {fileID: 468382, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1119,27 +1119,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474818, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -22.365034
+      value: -20.375969
       objectReference: {fileID: 0}
     - target: {fileID: 474818, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.587576
+      value: -0.5224714
       objectReference: {fileID: 0}
     - target: {fileID: 474818, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.14197
+      value: -27.493855
       objectReference: {fileID: 0}
     - target: {fileID: 476544, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.30126897
+      value: -2.125501
       objectReference: {fileID: 0}
     - target: {fileID: 476544, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.15615489
+      value: 0.6331806
       objectReference: {fileID: 0}
     - target: {fileID: 476544, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -8.922046
+      value: -10.982799
       objectReference: {fileID: 0}
     - target: {fileID: 477242, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1167,63 +1167,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 477242, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 2.5105455
+      value: 0.73437524
       objectReference: {fileID: 0}
     - target: {fileID: 477242, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 2.1700194
+      value: 2.803163
       objectReference: {fileID: 0}
     - target: {fileID: 477242, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -13.905001
+      value: -15.937859
       objectReference: {fileID: 0}
     - target: {fileID: 478374, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -34.41389
+      value: -30.07024
       objectReference: {fileID: 0}
     - target: {fileID: 478374, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 108.03679
+      value: 110.13093
       objectReference: {fileID: 0}
     - target: {fileID: 478374, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -103.19237
+      value: -96.052444
       objectReference: {fileID: 0}
     - target: {fileID: 479454, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000032827597
+      value: 0.000012748347
       objectReference: {fileID: 0}
     - target: {fileID: 479454, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000012709398
+      value: -0.000004971719
       objectReference: {fileID: 0}
     - target: {fileID: 479454, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 54.799545
+      value: 42.86618
       objectReference: {fileID: 0}
     - target: {fileID: 480110, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000001067217
+      value: 0.000000070877974
       objectReference: {fileID: 0}
     - target: {fileID: 480110, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.00000042021668
+      value: -0.0000005116501
       objectReference: {fileID: 0}
     - target: {fileID: 480110, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.0000002134434
+      value: 0.00000014175595
       objectReference: {fileID: 0}
     - target: {fileID: 480452, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.00000417286
+      value: 0.000008358197
       objectReference: {fileID: 0}
     - target: {fileID: 480452, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000029713108
+      value: -0.0000087360295
       objectReference: {fileID: 0}
     - target: {fileID: 480452, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 144.54698
+      value: 132.5828
       objectReference: {fileID: 0}
     - target: {fileID: 480598, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1239,47 +1239,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 480598, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 25.04234
+      value: 24.739742
       objectReference: {fileID: 0}
     - target: {fileID: 480598, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -153.38019
+      value: -155.3874
       objectReference: {fileID: 0}
     - target: {fileID: 480598, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -18.579712
+      value: -30.13882
       objectReference: {fileID: 0}
     - target: {fileID: 480624, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 5.194316
+      value: 5.194319
       objectReference: {fileID: 0}
     - target: {fileID: 480624, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.7778442
+      value: -1.7778431
       objectReference: {fileID: 0}
     - target: {fileID: 480624, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -34.28535
+      value: -34.285355
       objectReference: {fileID: 0}
     - target: {fileID: 481500, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 31.027363
+      value: 31.027298
       objectReference: {fileID: 0}
     - target: {fileID: 481500, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -97.237495
+      value: -97.23749
       objectReference: {fileID: 0}
     - target: {fileID: 481500, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 171.06346
+      value: 171.06348
       objectReference: {fileID: 0}
     - target: {fileID: 483450, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000011667455
+      value: 0.000003512279
       objectReference: {fileID: 0}
     - target: {fileID: 483450, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000003107473
+      value: 0.00000072424416
       objectReference: {fileID: 0}
     - target: {fileID: 483450, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1287,75 +1287,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 485158, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -19.249752
+      value: -17.455002
       objectReference: {fileID: 0}
     - target: {fileID: 485158, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -2.5836976
+      value: -1.1142387
       objectReference: {fileID: 0}
     - target: {fileID: 485158, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -72.55847
+      value: -64.34313
       objectReference: {fileID: 0}
     - target: {fileID: 486822, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.0000026449368
+      value: -0.000003966415
       objectReference: {fileID: 0}
     - target: {fileID: 486822, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000014546224
+      value: 0.0000022729055
       objectReference: {fileID: 0}
     - target: {fileID: 486822, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -36.93935
+      value: -36.939346
       objectReference: {fileID: 0}
     - target: {fileID: 487414, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 6.5035834
+      value: -9.872303
       objectReference: {fileID: 0}
     - target: {fileID: 487414, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -35.063473
+      value: -48.820824
       objectReference: {fileID: 0}
     - target: {fileID: 487414, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 30.250345
+      value: 39.108803
       objectReference: {fileID: 0}
     - target: {fileID: 487464, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.26039928
+      value: 0.26039693
       objectReference: {fileID: 0}
     - target: {fileID: 487464, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 8.818301
+      value: 8.818299
       objectReference: {fileID: 0}
     - target: {fileID: 487464, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -41.97433
+      value: -41.97434
       objectReference: {fileID: 0}
     - target: {fileID: 489166, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.000004148346
+      value: -0.0000010838236
       objectReference: {fileID: 0}
     - target: {fileID: 489166, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000010072051
+      value: 0.0000071520126
       objectReference: {fileID: 0}
     - target: {fileID: 489166, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 76.352844
+      value: 85.87646
       objectReference: {fileID: 0}
     - target: {fileID: 489402, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 5.1582603
+      value: 0.737628
       objectReference: {fileID: 0}
     - target: {fileID: 489402, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -21.55875
+      value: -22.791916
       objectReference: {fileID: 0}
     - target: {fileID: 489402, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 36.691242
+      value: 26.955097
       objectReference: {fileID: 0}
     - target: {fileID: 489804, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalScale.x
@@ -1379,15 +1379,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489804, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -84.65764
+      value: -77.67929
       objectReference: {fileID: 0}
     - target: {fileID: 489804, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 10.356415
+      value: 3.1204967
       objectReference: {fileID: 0}
     - target: {fileID: 489804, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 89.999985
+      value: 100.73992
       objectReference: {fileID: 0}
     - target: {fileID: 489928, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1395,7 +1395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489928, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 89.99992
+      value: 89.999916
       objectReference: {fileID: 0}
     - target: {fileID: 489928, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1403,15 +1403,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490012, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 19.983936
+      value: 21.091219
       objectReference: {fileID: 0}
     - target: {fileID: 490012, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 2.9508967
+      value: 1.7242172
       objectReference: {fileID: 0}
     - target: {fileID: 490012, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 79.97224
+      value: 69.14251
       objectReference: {fileID: 0}
     - target: {fileID: 490980, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1423,15 +1423,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490980, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -97.17279
+      value: -97.1728
       objectReference: {fileID: 0}
     - target: {fileID: 497332, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0.0000033448625
+      value: -0.000000050636125
       objectReference: {fileID: 0}
     - target: {fileID: 497332, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.0000015156141
+      value: -0.0000033059016
       objectReference: {fileID: 0}
     - target: {fileID: 497332, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1439,7 +1439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498180, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.26039952
+      value: -0.2603994
       objectReference: {fileID: 0}
     - target: {fileID: 498180, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1451,11 +1451,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498358, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.00000035330856
+      value: -0.0000003519687
       objectReference: {fileID: 0}
     - target: {fileID: 498358, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.0000016705958
+      value: 0.0000016642614
       objectReference: {fileID: 0}
     - target: {fileID: 498358, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1463,7 +1463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498990, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -15.524532
+      value: -15.524531
       objectReference: {fileID: 0}
     - target: {fileID: 498990, guid: 671306f7395630a4f8cb96159b796198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -7569,37 +7569,45 @@ MonoBehaviour:
       variableStartIndex: 
       JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(451.5825,-104.236237)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(0.869564056,240)"},"ID":1,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-887.649231,129.4998)","Comment":"\u5904\u7406\u6b7b\u4ea1"},"ID":2,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-681.9224,316.750183)","Comment":"\u662f\u5426\u5df2\u6b7b\u4ea1"},"ID":3,"Name":"Compare
         Shared Bool","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Dead","IsShared":true,"BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"IsHealthyUnder","NodeData":{"Offset":"(-522.4853,308.8294)"},"ID":4,"Name":"Is
-        Healthy Under","Instant":true,"Int32UnderHealth":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-383.9345,313.530029)","Comment":"\u602a\u7269\u5df2\u6b7b\u4ea1"},"ID":5,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"\u602a\u7269\u5df2\u6b7b\u4ea1"},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(-252.694687,317.7036)"},"ID":6,"Name":"Set
-        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Dead","IsShared":true,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-133.720276,318.08313)","Comment":"\u5904\u7406\u6a21\u578b"},"ID":7,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.StopBehaviorTree","NodeData":{"Offset":"(11.4410095,318.08313)"},"ID":8,"Name":"Stop
-        Behavior Tree","Instant":true,"SharedGameObjectbehaviorGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedIntgroup":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolpauseBehavior":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-315.050659,122.735962)","Comment":"\u8f6c\u9636\u6bb5\u52a8\u753b"},"ID":9,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-327.402985,154.444061)","Comment":"\u5224\u65ad\u662f\u5426\u5df2\u7ecf\u8fdb\u5165\u4e8c\u9636\u6bb5"},"ID":10,"Name":"Compare
-        Shared Bool","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"SecondForm","IsShared":true,"BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"IsHealthyUnder","NodeData":{"Offset":"(-159.3652,155.684952)"},"ID":11,"Name":"Is
-        Healthy Under","Instant":true,"Int32UnderHealth":300},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-3.00489521,297.837555)","Comment":"\u8f6c\u9636\u6bb5\u5e8f\u5217"},"ID":12,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-289.503479,160.769241)"},"ID":13,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"UnderHealth"},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-141.58934,160.783844)","Comment":"\u64ad\u653e\u6012\u543c"},"ID":14,"Name":"Cross
-        Fade","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":0},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"roar"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(-1.60237885,155.139633)"},"ID":15,"Name":"Set
-        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":1},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(115.599457,168.946808)"},"ID":16,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(242.194214,159.432526)","Comment":"\u638f\u5251"},"ID":17,"Name":"Cross
-        Fade","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":2},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"summonSword&Whip"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.2},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(374.6808,169.361679)"},"ID":18,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(498.8889,168.888916)"},"ID":19,"Name":"Set
-        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":3},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(135.573273,154.375)"},"ID":20,"Name":"Set
-        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"SecondForm","IsShared":true,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedInt","NodeData":{"Offset":"(388.049835,147.4237)"},"ID":21,"Name":"Set
-        Shared Int","Instant":true,"SharedInttargetValue":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedInttargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(741.7726,116.861542)","Comment":"\u8ffd\u8e2a\u4ee5\u53ca\u653b\u51fb\u52a8\u753b"},"ID":22,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IsPlayerDetected","NodeData":{"Offset":"(-175.049622,226.212433)"},"ID":23,"Name":"Is
-        Player Detected","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-9.130608,229.053467)"},"ID":24,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(3.268734,334.7463)","Comment":"\u521d\u6b21\u767b\u573a\u5e8f\u5217\n"},"ID":25,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-137.5802,171.8274)"},"ID":26,"Name":"Compare
-        Shared Bool","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"FirstDetected","IsShared":true,"BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(1.59589386,170.797577)"},"ID":27,"Name":"Set
-        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":4},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(121.570442,182.702332)","Comment":"\u64ad\u653e\u6012\u543c"},"ID":28,"Name":"Cross
-        Fade","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":5},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"roar"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(251.004211,184.864746)"},"ID":29,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(373.12088,184.864746)"},"ID":30,"Name":"Set
-        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":6},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(488.2345,183.27417)"},"ID":31,"Name":"Set
-        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"FirstDetected","IsShared":true,"BooleanmValue":false}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(150,230)"},"ID":32,"Name":"Wait
-        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":7},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(353.695557,229.7471)","Comment":"\u8ffd\u51fb\u6a21\u5757"},"ID":33,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IsPlayerDistanceNear","NodeData":{"Offset":"(-190,170)"},"ID":34,"Name":"Is
-        Player Distance Near","Instant":true,"Singledistance":20},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(80.1824951,161.219421)"},"ID":35,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.Play","NodeData":{"Offset":"(-123.888885,116.666687)"},"ID":36,"Name":"Play","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":8},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"walk"},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"WalkToPlayerAction","NodeData":{"Offset":"(131.031677,126.666687)"},"ID":37,"Name":"Walk
-        To Player Action","Instant":true,"Singledistance":15,"SinglewalkSpeed":5,"SinglerotationSpeed":5,"SinglechaseTimeOut":5}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(1073.77148,269.5614)"},"ID":38,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(-306.149078,247.027039)"},"ID":39,"Name":"Wait
-        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":9},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"FaceToPlayerAction","NodeData":{"Offset":"(-130.199738,247.047241)"},"ID":40,"Name":"Face
-        To Player Action","Instant":true,"SinglerotationSpeed":4,"SingletimeOut":3},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(88.88806,248.888916)"},"ID":41,"Name":"Wait
-        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":10},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"StageRandomSelector","NodeData":{"Offset":"(369.19104,264.519531)"},"ID":42,"Name":"Stage
-        Random Selector","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},"List`1IncludedTasksPerStatge":["0,1,2","0,1,2,3,4"],"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-527.9724,259.972961)"},"ID":43,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-82.17949,175)"},"ID":44,"Name":"swordAttack2","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":11},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"swordAttack2"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.88292313,255.563477)"},"ID":45,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-100.256454,192.820511)"},"ID":46,"Name":"swordAttack1","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":12},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"swordAttack1"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(205.108246,250.769165)"},"ID":47,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(5.205763,180)"},"ID":48,"Name":"2HitCombo","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":13},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"2HitCombo"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(518.774963,264.794128)"},"ID":49,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-3.48837852,170)"},"ID":50,"Name":"whipAttack","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":14},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"whipAttack"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(695.6766,257.241364)"},"ID":51,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(66.9231,189.230774)"},"ID":52,"Name":"3HitCombo","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":15},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"3HitCombo"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(644.6106,240.63089)"},"ID":53,"Name":"Wait
-        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":16},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(843.967346,234.07782)"},"ID":54,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.5}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(1603.34412,162.970779)"},"ID":55,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"Fighting"},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"SecondForm","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Dead","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"FirstDetected","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}]}'
+        Healthy Under","Instant":true,"Int32UnderHealth":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityLight.SetColor","NodeData":{"Offset":"(-451.80127,426.30658)"},"ID":5,"Name":"Set
+        Color","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":0},"SharedColorcolor":{"Type":"BehaviorDesigner.Runtime.SharedColor","Name":null,"ColormValue":"RGBA(1.000,
+        0.000, 0.000, 1.000)"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.Play","NodeData":{"Offset":"(-374.6524,332.740723)"},"ID":6,"Name":"Play","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":1},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"death"},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(-252.6947,331.5925)"},"ID":7,"Name":"Set
+        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Dead","IsShared":true,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-174.999908,470)"},"ID":8,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.Destroy","NodeData":{"Offset":"(-99.83325,327.495239)"},"ID":9,"Name":"Destroy","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":2},"Singletime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.StopBehaviorTree","NodeData":{"Offset":"(53.107666,331.972015)"},"ID":10,"Name":"Stop
+        Behavior Tree","Instant":true,"SharedGameObjectbehaviorGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedIntgroup":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolpauseBehavior":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-315.050659,122.735962)","Comment":"\u8f6c\u9636\u6bb5\u52a8\u753b"},"ID":11,"Name":"Sequence","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-327.402985,154.444061)","Comment":"\u5224\u65ad\u662f\u5426\u5df2\u7ecf\u8fdb\u5165\u4e8c\u9636\u6bb5"},"ID":12,"Name":"Compare
+        Shared Bool","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"SecondForm","IsShared":true,"BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"IsHealthyUnder","NodeData":{"Offset":"(-159.3652,155.684952)"},"ID":13,"Name":"Is
+        Healthy Under","Instant":true,"Int32UnderHealth":300},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-3.00489521,297.837555)","Comment":"\u8f6c\u9636\u6bb5\u5e8f\u5217"},"ID":14,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(-289.503479,160.769241)"},"ID":15,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"UnderHealth"},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityLight.SetColor","NodeData":{"Offset":"(-229.587036,318.5282)"},"ID":16,"Name":"Set
+        Color","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":3},"SharedColorcolor":{"Type":"BehaviorDesigner.Runtime.SharedColor","Name":null,"ColormValue":"RGBA(1.000,
+        0.000, 0.000, 1.000)"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-141.58934,160.783844)","Comment":"\u64ad\u653e\u6012\u543c"},"ID":17,"Name":"Cross
+        Fade","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":4},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"roar"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(-1.60237885,155.139633)"},"ID":18,"Name":"Set
+        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":5},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(115.599457,168.946808)"},"ID":19,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(242.194214,159.432526)","Comment":"\u638f\u5251"},"ID":20,"Name":"Cross
+        Fade","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":6},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"summonSword&Whip"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.2},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(374.6808,169.361679)"},"ID":21,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(498.8889,168.888916)"},"ID":22,"Name":"Set
+        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":7},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(135.573273,154.375)"},"ID":23,"Name":"Set
+        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"SecondForm","IsShared":true,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedInt","NodeData":{"Offset":"(388.049835,147.4237)"},"ID":24,"Name":"Set
+        Shared Int","Instant":true,"SharedInttargetValue":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedInttargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(741.7726,116.861542)","Comment":"\u8ffd\u8e2a\u4ee5\u53ca\u653b\u51fb\u52a8\u753b"},"ID":25,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IsPlayerDetected","NodeData":{"Offset":"(-175.049622,226.212433)"},"ID":26,"Name":"Is
+        Player Detected","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-9.130608,229.053467)"},"ID":27,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(3.268734,334.7463)","Comment":"\u521d\u6b21\u767b\u573a\u5e8f\u5217\n"},"ID":28,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-137.5802,171.8274)"},"ID":29,"Name":"Compare
+        Shared Bool","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"FirstDetected","IsShared":true,"BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(1.59589386,170.797577)"},"ID":30,"Name":"Set
+        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":8},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(121.570442,182.702332)","Comment":"\u64ad\u653e\u6012\u543c"},"ID":31,"Name":"Cross
+        Fade","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":9},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"roar"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(251.004211,184.864746)"},"ID":32,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityGameObject.SetActive","NodeData":{"Offset":"(373.12088,184.864746)"},"ID":33,"Name":"Set
+        Active","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":10},"SharedBoolactive":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(488.2345,183.27417)"},"ID":34,"Name":"Set
+        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"FirstDetected","IsShared":true,"BooleanmValue":false}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(150,230)"},"ID":35,"Name":"Wait
+        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":11},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(353.695557,229.7471)","Comment":"\u8ffd\u51fb\u6a21\u5757"},"ID":36,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"IsPlayerDistanceNear","NodeData":{"Offset":"(-190,170)"},"ID":37,"Name":"Is
+        Player Distance Near","Instant":true,"Singledistance":20},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(80.1824951,161.219421)"},"ID":38,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.Play","NodeData":{"Offset":"(-123.888885,116.666687)"},"ID":39,"Name":"Play","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":12},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"walk"},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"WalkToPlayerAction","NodeData":{"Offset":"(131.031677,126.666687)"},"ID":40,"Name":"Walk
+        To Player Action","Instant":true,"Singledistance":15,"SinglewalkSpeed":5,"SinglerotationSpeed":5,"SinglechaseTimeOut":5}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(1073.77148,269.5614)"},"ID":41,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(-306.149078,247.027039)"},"ID":42,"Name":"Wait
+        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":13},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"FaceToPlayerAction","NodeData":{"Offset":"(-130.199738,247.047241)"},"ID":43,"Name":"Face
+        To Player Action","Instant":true,"SinglerotationSpeed":4,"SingletimeOut":3},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(88.88806,248.888916)"},"ID":44,"Name":"Wait
+        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":14},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"StageRandomSelector","NodeData":{"Offset":"(369.19104,264.519531)"},"ID":45,"Name":"Stage
+        Random Selector","Instant":true,"SharedIntCurrentStage":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0},"List`1IncludedTasksPerStatge":["0,1,2","0,1,2,3,4"],"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-527.9724,259.972961)"},"ID":46,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-156.253571,175)"},"ID":47,"Name":"swordAttack2","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":15},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"swordAttack2"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(9.999756,182.963013)"},"ID":48,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.5}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.88292313,255.563477)"},"ID":49,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-100.256454,192.820511)"},"ID":50,"Name":"swordAttack1","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":16},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"swordAttack1"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(27.0378418,190)"},"ID":51,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.5}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(205.108246,250.769165)"},"ID":52,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-31.831274,198.518524)"},"ID":53,"Name":"2HitCombo","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":17},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"2HitCombo"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(89.2597656,191.481445)"},"ID":54,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2.5}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(518.774963,264.794128)"},"ID":55,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(-40.5254135,170)"},"ID":56,"Name":"whipAttack","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":18},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"whipAttack"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(94.07471,162.962952)"},"ID":57,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.5}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(695.6766,257.241364)"},"ID":58,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.CrossFade","NodeData":{"Offset":"(66.9231,189.230774)"},"ID":59,"Name":"3HitCombo","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":19},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"3HitCombo"},"SharedFloattransitionDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32layer":-1,"SinglenormalizedTime":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(197.77832,207.037109)"},"ID":60,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":3.5}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.WaitForState","NodeData":{"Offset":"(644.6106,240.63089)"},"ID":61,"Name":"Wait
+        For State","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":20},"SharedStringstateName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"idle"},"SharedIntlayer":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(843.967346,234.07782)"},"ID":62,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.5}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(1603.34412,162.970779)"},"ID":63,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"Fighting"},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"SecondForm","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Dead","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"FirstDetected","IsShared":true,"BooleanmValue":false},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"CurrentStage","IsShared":true,"Int32mValue":0}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
         startIndex: 
         dataPosition: 
         unityObjects:
+        - {fileID: 705507993}
+        - {fileID: 932726205}
+        - {fileID: 932726205}
+        - {fileID: 705507993}
         - {fileID: 932726205}
         - {fileID: 473407502}
         - {fileID: 932726205}
